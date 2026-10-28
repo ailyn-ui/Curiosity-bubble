@@ -1,0 +1,1 @@
+- 2026-10-28 | REEL | #20 Permission (hook 75 STRONG) | "You don't need more discipline." | The Message Mirror promo, ADHD women founders, CTA comment "mirror", ~26.6s
