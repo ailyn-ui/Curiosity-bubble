@@ -84,6 +84,12 @@
       "sourceType": "github",
       "skillPath": "skills/ig-viral/SKILL.md",
       "computedHash": "429f2e98500958d3354ba1b4e1428603d621c84af2e5add26e4f7f64e0f879e6"
+    },
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-best-practices/SKILL.md",
+      "computedHash": "e3cc169fcb69c59efd9c3f1feaf0bdbf124488aec9dd2809266733f4d615b90a"
     }
   }
 }
