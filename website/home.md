@@ -110,6 +110,19 @@ when you can, by voice message or in writing, from your desk or the school car p
 
 I work with one client at a time, so you have my full attention.
 
+You get your own client space: everything I create lands there,
+you comment when you can, decisions are marked as cleared, and you
+can see the progress at any time.
+
+IF LIFE HAPPENS
+Sick child? Holiday? Go quiet for a few days. I keep building;
+you don't have to be with me the whole time. That's my job.
+
+A few decisions are key, and I can't fully move on without them.
+I'll mark those clearly, so you know exactly which ones matter.
+Most can be made in a few minutes, even from the car outside
+ballet or football practice.
+
 You give me your messy genius.
 I give it form, colour, shape, and a place to live.
 ```
@@ -138,8 +151,8 @@ Next available start: {{month}}
 
 Pricing test on Sarah (2026-10-29): "40 days, one-to-one, one client at a time" turned sticker
 shock into "this is different"; her questions were what she leaves with, paying in parts, and
-proof. Not added yet: a line on what happens if she goes quiet for a few days (only if true
-for how you work), and one real client story.
+proof. Added after: an "If life happens" block (she can go quiet; key decisions are marked).
+Still missing: one real client story.
 
 A visible starting price lets women answer the form's budget question
 honestly instead of picking low "to be safe". "One client at a time" is true
