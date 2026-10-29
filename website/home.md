@@ -1,32 +1,80 @@
-# Website – home page copy (draft, 2026-10-29)
+# Website – home page copy (draft v2, 2026-10-29)
 
 Tested on the `talk-to-avatar` skill (Sarah). Findings are in
 `instagram/research/avatar-insights.md`. Sarah is a rehearsal partner, not market
 research: confirm with real clients before treating any finding as settled.
 
+**Positioning shift (v2):** lead with the structure, not "branding". Brand and
+money are two places the same missing upkeep shows up; Ailyn (MBA, ADHD) builds
+the structure that holds both.
+
 ## Hero
 
 ```
-BRAND STRATEGY FOR ADHD FOUNDERS & MOMS
+BRAND, MONEY & THE SYSTEMS THAT HOLD THEM
+for ADHD founders & moms
 
 You don't have to hold it all.
 Your brand can.
 
-I build your brand and a system that holds it for you, so you can close
-the laptop and actually be done.
+I build your brand and a system that holds it for you, so you can
+close the laptop and actually be done.
 
 [ Try The Message Mirror, free ]
 ```
 
-Replaces: "Give your genius a permanent voice. Build a brand that holds your
-authority for you." ("genius", "authority" and "permanent" made Sarah feel the
-page wasn't for her; "holds … for you" was kept because it landed.)
+## If this sounds familiar
+
+```
+You're smart. You have ideas. You're good at what you do.
+So why does it all feel this hard?
+
+Your business lives in your head, next to the school forms,
+the client emails and the 40 voice notes to yourself.
+Everything bleeds into everything.
+
+You forget something. Then the numbers don't add up.
+Then it feels too shameful to look.
+
+And somewhere along the way, you started to believe
+the problem was you.
+
+It was never you.
+It was the missing structure.
+```
+
+## My story
+
+```
+I have an MBA. I'm also ADHD.
+
+So I know how it's all supposed to work, and I know the shame of
+it still not working. Honestly, the degree made the shame worse.
+{{one real detail of what that looked like for you}}
+
+What finally changed things wasn't trying harder.
+It was building the structure around my brain: the systems,
+the upkeep, the architecture that holds it all in place.
+
+Now I build that for women like me.
+```
+
+Fill `{{ }}` with a real moment of your own. Don't use an example that isn't true.
+
+## The gap
+
+```
+Here's what I see again and again: your clients are getting
+a smaller version of what you actually offer.
+
+Not because you're doing it wrong. Because what you deliver
+hasn't been given a clear shape yet, so you end up
+explaining yourself on every call.
+```
 
 ## How it works
 
 ```
-HOW IT WORKS
-
 You bring the pieces.
 I build the architecture.
 
@@ -37,50 +85,91 @@ you've been carrying around in your head.
 I BUILD
 Every build is shaped around you. It often includes:
 
-→ Brand strategy: what you really offer, who it's for (your ideal
-  client, in detail), and how to say it so people get it the first time.
-→ Brand assets: logo, colours, fonts, and design briefs for your
-  social media.
+→ Brand strategy: what you really offer, who it's for, and how
+  to say it so people get it the first time.
+→ Brand assets: logo, colours, fonts, and design briefs for
+  your social media.
+→ Money clarity: {{what you set up, e.g. a simple view of what's
+  safe to spend, invoicing that doesn't rely on memory}}, without
+  judgement, at your pace.
 → A planning partner: your projects broken into priorities and
   tiny tasks, each given a day and a time in your calendar.
-  So you don't have to hold the plan. It holds you.
-→ One dashboard: everything in one place, to see and manage at a glance.
+  You don't have to hold the plan. It holds you.
+→ One dashboard: everything in one place, to see at a glance.
 → Your own AI helpers: test a post on your ideal client before
-  you share it, and get social media posts designed and written
-  for you to approve.
+  you share it, and get posts designed and written for you to approve.
 
-HOW WE WORK
-No fixed calls. I ask you questions; you answer when you can,
-by voice message or in writing, whatever suits you that day.
+I set them up and guide you. They never replace me.
+```
+
+## How we work
+
+```
+No fixed calls. I ask you questions, and you answer when you can,
+by voice message or in writing, from your desk or the school car park.
 
 You give me your messy genius.
 I give it form, colour, shape, and a place to live.
-
-[ Start with The Message Mirror, free ]
 ```
 
-### Still to decide
+## Investment
 
-- **AI reassurance line**, e.g. "I set them up and guide you. They never replace me."
-  (Sarah: "I'd still want to know you're the one behind it.")
-- **Price signal**, e.g. "Investment starts from {{amount}}" or "Message me for
-  pricing". Without it her first DM is "how much?". The synthetic survey ranges
-  ($100–160/month membership, $1.5k–8.5k programme) need testing with real people.
-- "a place to live" vs Ailyn's original "containment".
+```
+Builds usually start from {{$X}}.
+```
 
-## Use elsewhere
+A visible starting price lets women answer the form's budget question
+honestly instead of picking low "to be safe".
 
-- **"It was never you. It was the missing structure."** Strongest emotional line
-  in testing, but it didn't drive a click as a hero. Use it to open the
-  "about you" section, or as a Reel hook.
-- **"Your clients are buying a smaller version of you."** Felt like criticism as an
-  opener. Better further down the page, once she trusts you.
+## Start here
 
-## Other hero options tested
+```
+Not sure where your gap is? The Message Mirror shows you, in
+5 to 30 minutes, whether what clients think they're buying
+matches what you actually give. Free, no sign-up.
 
-| Headline | Hook score | Sarah |
-|---|---|---|
-| You don't have to hold it all. Your brand can. | 78 STRONG | Would click. "Brand" briefly read as logo |
-| It was never you. It was the missing structure. | 52 OK | Moved her, but she'd heart it, not click |
-| Be fully with your kids. Let your brand hold the rest. | 47 WEAK | Set off mom guilt; unclear if business or parenting |
-| Your clients are buying a smaller version of you. | 28 WEAK | Stung ("doing it wrong again") |
+[ Try The Message Mirror, free ]
+
+Ready to talk? Tell me where you are.
+[ Tell me about you ]
+```
+
+### "Tell me about you" form (draft)
+
+```
+A few questions so I can see where you are.
+There are no wrong answers.
+
+1. Your first name
+2. Your business, in one line
+3. How long you've been running it
+   ( ) under 1 year  ( ) 1–3 years  ( ) 3–5 years  ( ) 5+ years
+4. What's the hardest part right now?
+   (Type it, or send a voice note if your form tool allows.)
+5. What would you be ready to invest?
+   ( ) under $1,500  ( ) $1,500–4,500  ( ) $5,000–8,500
+   ( ) $10,000+      ( ) not sure yet
+6. Where should I reply?   ( ) email  ( ) Instagram DM
+
+What happens next: I'll reply within {{2 days}} with either an idea of
+how you can move forward, or an invitation to talk about working together.
+```
+
+The ranges follow the synthetic survey. Adjust them to your real prices.
+
+## Still to decide
+
+- "A place to live" vs "containment".
+- The money clarity examples, and the starting price.
+- Whether money help is part of every build or a separate entry offer
+  (test with real clients first).
+
+## Tested and set aside
+
+| Option | Why |
+|---|---|
+| Old hero: "Give your genius a permanent voice. Build a brand that holds your authority for you." | "Genius", "authority", "permanent" felt like it was for someone else |
+| "Business architecture for ADHD founders & moms" | "Business architecture" read as corporate and vague |
+| "The structure behind your brand and your numbers" | "Numbers" read as an accountant; no ADHD signal |
+| "Be fully with your kids. Let your brand hold the rest." | Set off mom guilt |
+| "Your clients are buying a smaller version of you." as hero | Stung as an opener; now softened further down |
