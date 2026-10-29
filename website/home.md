@@ -120,8 +120,26 @@ I give it form, colour, shape, and a place to live.
 Builds start from CHF 9,000.
 40 days, one-to-one, asynchronous. One client at a time.
 
+Paid in two parts: half to begin, half at the end, when everything
+we've created becomes fully yours, copyrights included.
+Need it in three? Just ask.
+
+WHAT YOU LEAVE WITH
+Your build is shaped in your proposal, after we've talked about where
+you are: your business, your brain and your life. You'll leave with:
+
+→ Content already written, and graphics ready to use.
+→ Your brand and your money system, set up and working.
+→ The structure to keep creating whatever you need, with just a little input.
+→ AI as much or as little as you like. You choose how much runs on its own.
+
 Next available start: {{month}}
 ```
+
+Pricing test on Sarah (2026-10-29): "40 days, one-to-one, one client at a time" turned sticker
+shock into "this is different"; her questions were what she leaves with, paying in parts, and
+proof. Not added yet: a line on what happens if she goes quiet for a few days (only if true
+for how you work), and one real client story.
 
 A visible starting price lets women answer the form's budget question
 honestly instead of picking low "to be safe". "One client at a time" is true
