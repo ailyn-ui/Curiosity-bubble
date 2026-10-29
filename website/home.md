@@ -127,6 +127,22 @@ You give me your messy genius.
 I give it form, colour, shape, and a place to live.
 ```
 
+## Proof
+
+```
+WORK I'VE DONE
+{{2–3 short branding client stories or quotes, with their permission:
+  who they are, what changed, in their words if possible}}
+
+THE SYSTEMS PART IS NEW, AND IT STARTED WITH ME
+I built it for my own ADHD brain first.
+{{one line on what changed for you}}
+```
+
+Use real stories only. If a quote is from a branding-only project, that's fine: it
+proves the brand half. A screenshot of your own dashboard or client space can sit here
+too, since seeing the system is proof as well.
+
 ## Investment
 
 ```
@@ -152,7 +168,7 @@ Next available start: {{month}}
 Pricing test on Sarah (2026-10-29): "40 days, one-to-one, one client at a time" turned sticker
 shock into "this is different"; her questions were what she leaves with, paying in parts, and
 proof. Added after: an "If life happens" block (she can go quiet; key decisions are marked).
-Still missing: one real client story.
+Proof section added with placeholders for real branding stories and Ailyn's own systems story.
 
 A visible starting price lets women answer the form's budget question
 honestly instead of picking low "to be safe". "One client at a time" is true
@@ -201,6 +217,9 @@ an idea of how to move forward (e.g. The Money Mirror, or the email series).
 - The money clarity examples, and the next available start month.
 - Whether to add a lighter offer between the free tools and the CHF 9,000 build
   (the synthetic survey's most common range was well below it; check with real people).
+- Founding-client offer for the first ADHD + systems clients (e.g. a bonus in exchange
+  for a case study and testimonial). If yes, add one line to Proof:
+  "Founding clients: the first {{2}} women get {{bonus}}, in exchange for sharing their story."
 - Whether money help is part of every build or a separate entry offer
   (test with real clients first).
 
