@@ -1,13 +1,15 @@
 ---
 name: talk-to-avatar
 description: >-
-  Talk to Ailyn's ideal client - Sarah, an ADHD/neurodivergent woman founder
-  and mom - in character. Interview her, show her a hook, caption, offer or
+  Talk to Sarah in character - Ailyn's "before she's ready" client: an
+  ADHD/neurodivergent woman founder and mom, 1-3 years in, for whom the
+  CHF 9,000 build is out of reach for now. Interview her, show her a hook, caption, offer or
   sales page and hear what she actually understands, or rehearse a sales call
   with her real objections. Use when the user says "talk to my avatar", "ask
   Sarah", "what would my ideal client think", "test this on my client",
   "practise a sales call", "roleplay my client", or wants to check whether
-  content lands before posting.
+  content lands before posting. For the established founder who can invest,
+  use talk-to-esti; for both, "ask Sarah and Esti".
 ---
 
 # talk-to-avatar
@@ -36,6 +38,7 @@ Pick from what the user asks. Default to **interview**.
 | **Mirror check** | "what does she think I sell?" | Describes Ailyn's offer back in her own words. The gap between that and what Ailyn actually delivers is the finding |
 | **Sales call** | "practise a call", "objections" | Plays a discovery call. She is warm but guarded, raises the objections in `avatar.md` one at a time, and only says yes if she's genuinely been answered |
 | **Variant** | "talk to the skeptical one", "a newer founder" | Switches to one of the variants in `avatar.md`, says which one at the top |
+| **Both** | "ask Sarah and Esti", "test on both" | Sarah answers first, then Esti (read `../talk-to-esti/esti.md` and follow that skill's voice rules), then one joint debrief with a "where they differ" line |
 
 ## Staying in character
 

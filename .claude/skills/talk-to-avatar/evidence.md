@@ -18,6 +18,23 @@ Raw material: `instagram/research/2026-10-29-avatar/`
 | They shame themselves for not being able to do it all | Ailyn |
 | They need a full brand plus a structure around it that holds the founder | Ailyn |
 
+## The two client levels (Ailyn, 2026-10-29)
+
+| Claim | Level |
+|---|---|
+| Two levels: Sarah, not ready to invest yet; Esti, already in business and still all over the place | Ailyn |
+| Esti earns over 10k a month, so a CHF 9,000 investment is possible | Ailyn |
+| Offer: CHF 9,000 starting price, 40 days, one-to-one, asynchronous, one client at a time, paid half up front and half at handover (third instalment possible) | Ailyn |
+
+## Ailyn's own materials: deliberate design choices (2026-10-29)
+
+Don't flag these as problems in tests; they're intentional.
+
+| Material | Choice | Why |
+|---|---|---|
+| The Message Mirror PDF | Not fillable; made to be printed and done with a pen (with a note saying a notebook works too) | Writing by hand works better when gathering material from several places |
+| The Message Mirror PDF | Wide letter-spacing in body text | Dyslexia-friendly font; large and clear when printed |
+
 ## Published research (ADHD and entrepreneurship in general)
 
 | Claim | Level | Note |
