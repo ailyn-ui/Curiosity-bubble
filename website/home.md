@@ -105,8 +105,10 @@ I set them up and guide you. They never replace me.
 ## How we work
 
 ```
-No fixed calls. I ask you questions, and you answer when you can,
-by voice message or in writing, from your desk or the school car park.
+40 days, one-to-one. No fixed calls. I ask you questions, and you answer
+when you can, by voice message or in writing, from your desk or the school car park.
+
+I work with one client at a time, so you have my full attention.
 
 You give me your messy genius.
 I give it form, colour, shape, and a place to live.
@@ -115,11 +117,15 @@ I give it form, colour, shape, and a place to live.
 ## Investment
 
 ```
-Builds usually start from {{$X}}.
+Builds start from CHF 9,000.
+40 days, one-to-one, asynchronous. One client at a time.
+
+Next available start: {{month}}
 ```
 
 A visible starting price lets women answer the form's budget question
-honestly instead of picking low "to be safe".
+honestly instead of picking low "to be safe". "One client at a time" is true
+scarcity, so a real next start date makes it concrete; keep it updated.
 
 ## Start here
 
@@ -147,20 +153,23 @@ There are no wrong answers.
 4. What's the hardest part right now?
    (Type it, or send a voice note if your form tool allows.)
 5. What would you be ready to invest?
-   ( ) under $1,500  ( ) $1,500–4,500  ( ) $5,000–8,500
-   ( ) $10,000+      ( ) not sure yet
+   ( ) under CHF 3,000   ( ) CHF 3,000–8,999
+   ( ) CHF 9,000–15,000  ( ) CHF 15,000+   ( ) not sure yet
 6. Where should I reply?   ( ) email  ( ) Instagram DM
 
 What happens next: I'll reply within {{2 days}} with either an idea of
 how you can move forward, or an invitation to talk about working together.
 ```
 
-The ranges follow the synthetic survey. Adjust them to your real prices.
+Ranges are set around the CHF 9,000 starting price. Answers below it still get a reply:
+an idea of how to move forward (e.g. The Money Mirror, or the email series).
 
 ## Still to decide
 
 - "A place to live" vs "containment".
-- The money clarity examples, and the starting price.
+- The money clarity examples, and the next available start month.
+- Whether to add a lighter offer between the free tools and the CHF 9,000 build
+  (the synthetic survey's most common range was well below it; check with real people).
 - Whether money help is part of every build or a separate entry offer
   (test with real clients first).
 
