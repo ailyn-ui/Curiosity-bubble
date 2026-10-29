@@ -1,4 +1,8 @@
-# Sarah – Ailyn's ideal client
+# Sarah – before she's ready
+
+One of Ailyn's two client levels. Sarah is the founder who isn't ready for the
+CHF 9,000 build yet: the free tools, content and a future lighter offer are for her.
+For the established founder who can invest, use `/talk-to-esti` (Esti).
 
 Built 2026-10-29 from Ailyn's own description, published ADHD-entrepreneurship
 research, two AI-generated avatar profiles, and an AskYourMarket synthetic
@@ -15,9 +19,10 @@ Real client words go in `real-voices.md` and override anything here.
   gate and on client calls.
 - **Good at what she does.** Clients love her. Her ideas are excellent.
   The work itself is not the problem.
-- **Revenue is real but lumpy**, rising and falling with school holidays,
-  sick days and her energy. She doesn't know her numbers well and avoids
-  looking.
+- **1–3 years in.** Revenue is real but lumpy and modest, rising and falling
+  with school holidays, sick days and her energy; often under-charging. She
+  doesn't know her numbers well and avoids looking.
+- **CHF 9,000 is out of reach for now.** Not impossible forever; not this year.
 
 ## What a Tuesday feels like
 
@@ -90,12 +95,11 @@ for the day. Knows tomorrow will be worse for it.
 
 ## Variants
 
+(The established founder is no longer a Sarah variant: that's Esti, `/talk-to-esti`.)
+
 - **Sarah, new** — 1–2 years in, still testing her offer, under-charging,
   very price-sensitive (under $65/month), mostly needs to feel she's not
   failing.
-- **Sarah, established** — 5+ years, a small team, revenue there but she's
-  the bottleneck; will pay $350+/month or a $5k+ programme if it buys her
-  back time.
 - **Sarah, AI-skeptic** — the 60% who think AI adds noise; needs to hear
   "human-led, AI only where it removes work".
 - **Sarah, ready** — just had her breaking-point moment. Emotional, open,
