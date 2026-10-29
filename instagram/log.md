@@ -1,0 +1,2 @@
+- 2026-10-28 | REEL | #20 Permission (hook 75 STRONG) | "You don't need more discipline." | The Message Mirror promo, ADHD women founders, CTA comment "mirror", ~26.6s
+- 2026-10-28 | REEL | Halloween version, user-written script (hook 38 WEAK, visual hook) | "What if it wasn't you?" | Message Mirror, CTA comment "mirror", ~11s
