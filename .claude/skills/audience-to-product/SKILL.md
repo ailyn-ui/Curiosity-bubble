@@ -55,6 +55,9 @@ the market or language, a price range, formats to avoid, and how soon they
 want to launch. If the audience is vague, offer two or three sharper
 sub-segments and let them pick, because a vague audience produces vague
 evidence. Don't ask about the user's skills, experience or existing brand.
+If the user gave no market, don't stop to ask. Default to the market with the
+most online evidence (usually English-speaking), say so, and add a short note
+on the user's home market at the end of the research.
 
 If the user names Sarah or Esti, you may read their persona files
 (`.claude/skills/talk-to-avatar/avatar.md`, `.claude/skills/talk-to-esti/esti.md`)
@@ -80,6 +83,21 @@ What to collect:
   [thing] for...", requests that get no good answer.
 - **Where they gather**: subreddits, Facebook groups, forums, hashtags,
   newsletters and podcasts. This decides distribution later.
+- **Who pays**: the person with the problem isn't always the buyer (parents
+  pay for teens, managers for teams). Name both, because it changes the price
+  and the sales page.
+- **The price ladder**: list what exists at each price, from free to DIY,
+  done-with-you and done-for-you. Empty bands are where opportunities sit.
+
+If WebFetch can't reach pages (a blocked network or a host that doesn't
+resolve), keep going with search-result excerpts, but label every quote
+taken that way as a *search excerpt* that hasn't been checked against the
+original. List the blocked domains so the user can allow them in the
+session's network settings and rerun.
+
+If the audience is young or vulnerable, or mental-health or financial
+distress shows up in the research, note it. Every product for that audience
+then carries a short pointer to professional support.
 
 Write the log with a source link next to every claim. Label anything you
 couldn't verify as *unverified*. Never invent quotes, numbers or review
