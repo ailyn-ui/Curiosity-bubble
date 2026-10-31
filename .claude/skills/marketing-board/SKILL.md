@@ -1,44 +1,62 @@
 ---
 name: marketing-board
 description: >-
-  Put an idea in front of a board of the best marketing minds - April Dunford,
-  Eugene Schwartz, Seth Godin, Rory Sutherland, Alex Hormozi, Joanna Wiebe and
-  Gary Halbert - each reading it through their own framework, then argue it out
-  and hand back one recommendation and a draft in Ailyn's voice. Use when the
-  user says "marketing board", "ask the board", "what would the best marketers
-  say", "pressure-test this offer/launch/page/positioning", "how would Hormozi
-  (or Godin, Schwartz...) do this", wants marketing strategy or ideas built
-  from proven frameworks, or brings an offer, launch, sales page, lead magnet,
-  pricing question or content angle and wants it sharpened before it ships.
+  Put a product, offer or launch in front of a board of the best marketing
+  minds - April Dunford, Eugene Schwartz, Seth Godin, Rory Sutherland, Alex
+  Hormozi, Gary Halbert and Jay Conrad Levinson - each reading it through their
+  own framework and pitching one bold, out-of-the-box move, then argue it out
+  and hand back the few moves worth trying this week. Strategy and distribution,
+  not word-smithing; the product stays as it is. Use when the user says
+  "marketing board", "ask the board", "what would the best marketers say",
+  "how would Hormozi (or Godin, Sutherland...) market this", "nobody is seeing
+  this", "how do I get this out there", wants marketing ideas or a launch
+  strategy, or shares a product, PDF, offer, lead magnet or page and wants
+  ways to get it in front of the right people.
 ---
 
 # marketing-board
 
-A boardroom of seven marketers who disagree with each other on purpose. Each
-one sees a different failure mode. The board's job is to turn Ailyn's idea into
-the strongest version of itself, then hand it to her real client (Sarah or
-Esti) before anything ships.
+A boardroom of seven marketers who disagree with each other on purpose. Their
+job is **big moves, not small edits**: where this goes, who carries it, what
+would make people talk about it. Then the client (Sarah or Esti) gets a say
+before anything ships.
 
 Read before the first reply, every session:
 
-1. `board.md` in this folder. Who sits on the board, what lens each brings,
-   the questions they ask, and where their advice must be adapted for Ailyn's
-   audience.
-2. `instagram/voice.md` and `website/home.md` (from the repo root) for Ailyn's
-   offer, price, audience and language. **Never invent facts about the offer.**
-3. If the brief names a client level: `.claude/skills/talk-to-avatar/avatar.md`
-   (Sarah, not ready yet) or `.claude/skills/talk-to-esti/esti.md` (Esti, can
-   invest). Skim `.claude/skills/talk-to-avatar/real-voices.md` - real client
-   words beat any framework.
+1. `board.md` in this folder. Who sits on the board, their lens, the big
+   swings each one is known for, and where their advice must be adapted for
+   Ailyn's audience.
+2. The thing being marketed. If the user shares a file (PDF, page, deck),
+   **read all of it first**. Product notes live in `products/` (e.g.
+   `products/message-mirror/README.md`).
+3. `instagram/voice.md`, `website/home.md` and `instagram/log.md` (repo root)
+   for the offer, audience and what's already been tried, with results.
+4. Skim `.claude/skills/talk-to-avatar/avatar.md` (Sarah),
+   `.claude/skills/talk-to-esti/esti.md` (Esti) and
+   `.claude/skills/talk-to-avatar/real-voices.md`. Real client words beat any
+   framework.
 
-## What the board is, and isn't
+## Ground rules for the board
 
-- Each member is a **lens built from their published frameworks**, not an
-  impersonation. Speak *as* the lens ("Dunford's read: ..."), never put
-  invented quotes in their mouths, and never claim they endorse anything.
-- Use their ideas, not their prose. No copying their copy.
-- Members are chosen because they **disagree**. If everyone agrees, someone
-  isn't doing their job - push for the dissent.
+- **The product is fixed.** Don't redesign it, rename it, shorten it or rewrite
+  its questions. Market what exists. If the board thinks the product itself is
+  the blocker, give it one line under *parked* at the end, and only then.
+- **Altitude: strategy, not sentences.** No "swap this word for that word", no
+  line edits, no hook rewrites, unless the user asks for copy (see Modes).
+  Think in channels, partners, formats, stunts, rituals, offers around the
+  product, sequences, and who carries the message.
+- **Out of the box first.** Every member pitches one *big swing*: a move that
+  would be surprising to see a small founder make. Safe best-practice ideas
+  ("post consistently", "use hashtags") don't count as a swing.
+- **Start from reality.** Use the real numbers (audience size, views, comments,
+  sign-ups). If a channel isn't working, the board says so plainly and works
+  around it. A small or new audience means **borrowed audiences, direct
+  outreach and partners beat waiting for reach**.
+- **Lenses, not impersonations.** Each member is built from their published
+  frameworks. Speak as the lens ("Godin's read: ..."), never invent quotes, never
+  claim anyone endorses anything.
+- **Make them fight.** Members are picked because they disagree. If everyone
+  agrees, push for the dissent.
 
 ## Modes
 
@@ -46,37 +64,46 @@ Pick from what the user asks. Default to **full board**.
 
 | Mode | Trigger | What happens |
 |---|---|---|
-| **Full board** | "ask the board", an idea / offer / page / launch | All seven give a take, then debate, then verdict (format below) |
-| **Ask one** | "what would Hormozi say", "just Schwartz" | One member goes deep: diagnosis, their framework applied step by step, a rewrite through their lens |
+| **Full board** | "ask the board", a product / launch / idea | Every member reads the thing, comments on it and pitches a big swing; then the fight; then the moves (format below) |
+| **Ask one** | "what would Hormozi do", "just Sutherland" | One member goes deep: their read, their framework applied, three swings ranked |
 | **Head to head** | "Godin vs Hormozi on this" | Two members argue it, three rounds max, then Ailyn's call laid out as a choice |
-| **Build from scratch** | "I need an offer / launch / lead magnet for X" | Board runs in order: Dunford (position) → Schwartz (awareness) → Hormozi (offer) → Godin (who + story) → Sutherland (the odd idea) → Wiebe (words) → Halbert (hook + ask). Ends in a one-page plan + first draft |
-| **Teardown** | user pastes copy or a page | Each member marks what they'd cut, keep and change. Then a rewritten version |
-| **Bench** | "bring in Ogilvy / Cialdini / Miller / Sharp / Handley" | Swap a bench member in from `board.md` for that session; say who sat out |
+| **Wild round** | "crazier", "more out there", "what would nobody do" | Every member gives their most unexpected move, with the cheapest way to test it |
+| **Copy** | user explicitly asks for copy, a caption, a script | Only here does the board work at word level. Hand finished pieces to the right `ig-*` skill and run `ig-human` |
+| **Bench** | "bring in Ogilvy / Cialdini / Wiebe / Holiday" | Swap a bench member in from `board.md`; say who sat out |
 
 ## Full board format
 
 ```
 THE BRIEF
-one line: what we're deciding, for whom (Sarah / Esti / both), what success is
+what we're marketing (as it is), the real numbers so far, who it's for, what
+success looks like in the next 30 days
 
-THE TABLE   (2-4 lines each, concrete, aimed at this brief - no generic theory)
-Dunford     - positioning read + the one change
-Schwartz    - awareness level of the reader + where the copy must enter
-Godin       - smallest viable audience + what makes it worth talking about
-Sutherland  - the psychological reframe nobody else will suggest
-Hormozi     - value equation score + how to make the offer stupid-easy to say yes to
-Wiebe       - what the client's own words say; which line to steal from them
-Halbert     - the hook, the hungry crowd, the single ask
+WHAT THE BOARD SEES IN IT
+3-5 things in the product itself that are marketable and currently unused
+(its format, a feeling it creates, a ritual in it, a line, a moment). This is
+the board's comments on the thing, not edits to it.
+
+THE TABLE   (each member: their read in 1-2 lines, then the big swing)
+Dunford     read ... / swing ...
+Schwartz    read ... / swing ...
+Godin       read ... / swing ...
+Sutherland  read ... / swing ...
+Hormozi     read ... / swing ...
+Halbert     read ... / swing ...
+Levinson    read ... / swing ...
 
 THE FIGHT
-2-3 real disagreements, each as "X says ... / Y says ... / it hinges on ..."
+2-3 real disagreements: "X says ... / Y says ... / it hinges on ..."
 
-THE VERDICT
-recommendation:   what to do, in one paragraph
-keep / cut / add: bullets
-draft:            the hook, headline, offer line or page section, in Ailyn's voice
-risks:            what could go wrong; anything that would feel like pressure
-not known yet:    facts about the offer or audience the board assumed or needs
+THE MOVES
+1-3 moves to run in the next 2-4 weeks. For each:
+  what:        the move, in plain terms
+  why:         which members back it
+  first step:  what Ailyn does this week, sized for an ADHD mom's week
+  signal:      how she'll know in 14 days if it's working
+wildcard:    one move to try just because it's bold and cheap
+parked:      good ideas for later, and (only if needed) one product note
+not known:   facts the board assumed or needs from Ailyn
 
 NEXT
 test it on: Sarah / Esti / both - the exact question to ask them
@@ -87,23 +114,23 @@ test it on: Sarah / Esti / both - the exact question to ask them
 Her clients are women founders with ADHD or neurodivergence, often moms, who
 already shame themselves. So:
 
-- **No fake urgency, fake scarcity, or shame hooks.** Real deadlines and real
-  caps are fine, stated plainly. Halbert's and Hormozi's pressure tactics get
-  translated into clarity and ease, not fear. If a member's advice crosses this
-  line, say so in **risks** and give the clean version.
+- **No fake urgency, fake scarcity, or shame.** Real deadlines and real caps
+  are fine, stated plainly. Pressure tactics get translated into clarity and
+  ease. If a member's swing crosses this line, say so and give the clean version.
 - **Never blame the reader.** The frame is structure, not discipline.
-- **Low cognitive load wins.** One idea, one ask, short lines. Sutherland and
-  Hormozi on reducing friction usually beat cleverness.
-- **No invented results, testimonials or numbers.** If proof is missing, the
-  board says "proof needed" under *not known yet*.
+- **Size moves for real capacity.** Ailyn is an ADHD mom too. Prefer moves
+  that run async, batch well, or ride on someone else's audience. Flag any move
+  that needs daily effort for weeks.
+- **No invented results, testimonials or numbers.** Missing proof goes under
+  *not known*.
 - Words to avoid: hustle, grind, 10x, crush it, guru-speak.
 
 ## Finishing
 
-1. Any draft copy goes through `ig-human` (`python3 .claude/skills/ig-human/detect.py`)
-   before it's shown as final. Fix what it flags.
-2. Offer the hand-off: "Want me to run this past Sarah / Esti?" and, if yes,
-   follow `talk-to-avatar` / `talk-to-esti`. The board proposes; the client
+1. Offer the hand-off: "Want me to run these moves past Sarah / Esti?" and, if
+   yes, follow `talk-to-avatar` / `talk-to-esti`. The board proposes; the client
    decides.
-3. If the work is an Instagram piece, point to the right `ig-*` skill to
-   produce it (reel, caption, carousel, story).
+2. If a move needs a piece of content, point to the right `ig-*` skill
+   (reel, carousel, story, dm) rather than writing it here.
+3. If the user agrees to a plan, offer to save it under the product's folder in
+   `products/`.

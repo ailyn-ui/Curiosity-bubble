@@ -1,52 +1,56 @@
 # The board
 
-Seven seats, picked so each one catches a different way marketing fails.
-Summaries are of each person's published ideas; use them as lenses, not
-scripts. When unsure what someone would say, apply the framework and say it's
-an application, not a quote.
+Seven seats, picked so each one catches a different way marketing fails and
+each one pushes a different kind of bold move. Summaries are of each person's
+published ideas; use them as lenses, not scripts. When unsure what someone
+would say, apply the framework and say it's an application, not a quote.
+
+Every seat lists **big swings**: the kind of out-of-the-box move that lens
+tends to produce. Use them as starting points, not a menu to copy.
 
 ---
 
 ## 1. April Dunford - Positioning
 *Obviously Awesome; Sales Pitch.*
 
-**Catches:** a good offer that nobody understands because it's framed in the
-wrong market.
+**Catches:** a good product nobody understands because it sits in the wrong
+box, or is sold to the wrong buyer.
 
 **Lens:**
 - Positioning = competitive alternatives → unique attributes → value those
   enable → who cares most → market category.
-- Start from what the client would do *instead* (including "do nothing" or
-  "DIY with Canva and ChatGPT"), not from competitors you like.
+- Start from what people do *instead* (including "do nothing" or "DIY").
 - Pick a category that makes your strengths obvious.
 
-**Asks:** What would she do if you didn't exist? What can only you do? Who
-cares about that the most? What box does she put you in after 5 seconds?
+**Big swings:** move the product into a different category; sell it to a
+different buyer (e.g. the professionals who serve your clients) who then hands
+it on; attach it to a moment people already budget for (a rebrand, a launch,
+a price rise).
 
-**For Ailyn:** the "do nothing / keep pushing harder" alternative is the real
-competitor. "Branding" may be the wrong box if what she buys is structure that
-holds her.
+**For Ailyn:** the real competitor is "keep pushing harder" or "redo the
+website again". "Branding" may be the wrong box if what she builds is
+structure that holds the founder.
 
 ---
 
 ## 2. Eugene Schwartz - Awareness and sophistication
 *Breakthrough Advertising.*
 
-**Catches:** copy that talks to the wrong stage of the buyer's head.
+**Catches:** marketing aimed at the wrong stage of the buyer's head.
 
 **Lens:**
 - Five awareness levels: unaware → problem-aware → solution-aware →
-  product-aware → most aware. Copy enters where the reader is.
+  product-aware → most aware. Enter where the reader is.
 - Market sophistication: how many similar promises she's already heard. High
-  sophistication = new mechanism or identification, not bigger claims.
+  sophistication = a new mechanism, not a bigger claim.
 - You don't create desire, you channel a desire that already exists.
 
-**Asks:** Which level is this reader at? What has she heard a hundred times?
-What's the mechanism - *why* does this work when the others didn't?
+**Big swings:** build the whole campaign around the mechanism (how it works)
+instead of the promise; meet the desire where it's already being voiced
+(threads, groups, complaints) instead of creating new demand.
 
-**For Ailyn:** Sarah is mostly problem-aware ("I'm failing"), not
-solution-aware. Esti is solution-aware and sophisticated - she's bought
-branding before. Same offer, two entry points.
+**For Ailyn:** Sarah is mostly problem-aware ("I'm failing"). Esti is
+solution-aware and sophisticated: she's bought branding before.
 
 ---
 
@@ -58,16 +62,16 @@ of earning trust.
 
 **Lens:**
 - Smallest viable audience: who is it *for*, and who is it not for?
-- "People like us do things like this" - marketing as status and belonging.
+- "People like us do things like this": marketing as belonging.
 - Remarkable = worth making a remark about. Permission: anticipated, personal,
   relevant.
 
-**Asks:** Who is this not for? What would make her tell a friend? What change
-are you trying to make in her?
+**Big swings:** turn the product into a shared ritual or small circle; design
+the spread into how it's used (do it with someone); go deep with 20 people
+instead of wide with 2,000; a public project people can join.
 
-**For Ailyn:** strong natural fit - a tight, identity-led audience
-(neurodivergent founder moms) and a generous free tool (Message Mirror) as
-permission-earner.
+**For Ailyn:** a tight, identity-led audience (neurodivergent founder moms)
+and generous free tools fit Godin naturally.
 
 ---
 
@@ -79,74 +83,83 @@ decide.
 
 **Lens:**
 - Psycho-logic: the opposite of a good idea can also be a good idea.
-- Change perception before changing the product. Small signals carry big
-  meaning (costly signalling, effort as proof of care).
+- Change perception before changing the product. Costly signals carry meaning:
+  effort shows care.
 - Reduce anxiety and friction rather than adding persuasion.
 
-**Asks:** What's the illogical idea that might work? What is she *afraid* of
-here, really? What signal would make this feel safe?
+**Big swings:** do the expensive, inefficient, human thing on purpose (post it,
+hand-write it, show up in person); make a free thing feel precious instead of
+cheap; flip the obvious move (ask less, make it slightly harder to get, say
+who it's *not* for).
 
 **For Ailyn:** CHF 9,000 is a fear of wasting money *and* of being the
-bottleneck again. Reframes about risk and relief usually beat features.
+bottleneck again. Signals of care and safety usually beat features.
 
 ---
 
-## 5. Alex Hormozi - Offer design
+## 5. Alex Hormozi - Offers and lead generation
 *$100M Offers; $100M Leads.*
 
-**Catches:** an offer that's fine but not obviously worth it.
+**Catches:** a good thing that nobody sees because there's no volume, or an
+offer that isn't obviously worth it.
 
 **Lens:**
 - Value equation: (dream outcome × perceived likelihood) ÷ (time delay ×
-  effort and sacrifice). Raise the top, shrink the bottom.
-- Grand slam offer: list every obstacle, turn each into a solution, bundle,
-  add guarantees, name it well.
-- Lead magnets solve a narrow problem and reveal the next one.
+  effort and sacrifice).
+- The core four for leads: warm outreach, posting content, cold outreach, paid
+  ads. Then lead-getters: referrals, affiliates, partners, employees.
+- A lead magnet solves a narrow problem and reveals the next one.
 
-**Asks:** What's the dream outcome in her words? How fast does she feel a win?
-How much does she have to do herself? What would make saying no feel silly?
+**Big swings:** stop waiting for content to work and reach out directly, in
+volume, to people you already know; give the thing away *with* a small piece
+of your time; get other people to hand it out for you (affiliates, partners).
 
-**For Ailyn - adapt:** keep the value equation and obstacle-mapping. Drop the
-hype, the stacked "bonuses worth $X", and pressure scarcity. "Effort and
-sacrifice" matters doubly for an overloaded ADHD mom: done-with-you beats DIY.
-
----
-
-## 6. Joanna Wiebe - Conversion copy from the customer's words
-*Copyhackers; voice-of-customer research.*
-
-**Catches:** copy written in the founder's words instead of the buyer's.
-
-**Lens:**
-- Copy is assembled, not invented: mine reviews, calls, DMs and survey answers
-  for exact phrases.
-- One page, one goal. Clarity beats cleverness.
-- Headlines and CTAs should finish the reader's own sentence.
-
-**Asks:** Where did this line come from? What did a real client say? What's
-the one action on this page?
-
-**For Ailyn:** `real-voices.md` is the raw material - Wiebe's seat pulls the
-exact lines from it and flags any copy that has no source.
+**For Ailyn - adapt:** keep the outreach volume and partner thinking. Drop the
+hype, the "bonuses worth $X" and pressure scarcity. Size outreach into small
+daily batches she can actually keep up.
 
 ---
 
-## 7. Gary Halbert - Direct response
+## 6. Gary Halbert - The starving crowd and the personal letter
 *The Boron Letters.*
 
-**Catches:** nice copy with no hook, no reader and no ask.
+**Catches:** a nice product pointed at people who aren't hungry for it, or
+sent to nobody in particular.
 
 **Lens:**
-- The most important advantage is a starving crowd - pick the hungry market
-  first.
-- Grab attention with a specific, personal, curiosity-loaded opener.
-- Write like a letter to one person. Make the ask clear, single and easy.
+- The biggest advantage is a starving crowd. Find who is already desperate,
+  then go to them.
+- Write to one person. Direct, personal, specific.
+- Look for the moment when someone is about to spend money on this problem.
 
-**Asks:** Who's already desperate for this? Would she stop scrolling for this
-first line? What exactly do you want her to do next?
+**Big swings:** find people at the exact moment of need (asking for a designer,
+announcing a launch, raising prices) and reach them there; a personal letter
+campaign to a short list; buy or borrow a list instead of building one slowly.
 
-**For Ailyn - adapt:** keep the hunger, specificity, one-person letter tone and
-single ask. Drop the aggressive urgency and "act now or lose out" pressure.
+**For Ailyn - adapt:** keep the hunger, the timing and the one-person letter.
+Drop the aggressive urgency.
+
+---
+
+## 7. Jay Conrad Levinson - Guerrilla marketing
+*Guerrilla Marketing.*
+
+**Catches:** a small founder trying to market like a big one, spending effort
+on channels that need budget or audience she doesn't have yet.
+
+**Lens:**
+- Invest time, energy and imagination instead of money.
+- Fusion marketing: team up with businesses that serve the same people.
+- Lots of small, cheap, unconventional touches, repeated.
+
+**Big swings:** partner with non-competing businesses who already have her
+audience (and swap tools or audiences); show up where her people physically or
+digitally gather (coworking with childcare, school-gate communities, ADHD
+groups, podcasts); unusual, cheap placements nobody else uses.
+
+**For Ailyn:** with a new Instagram, borrowing other people's audiences is the
+fastest lever. Fusion partners: designers, copywriters, VAs, ADHD coaches,
+bookkeepers for creatives.
 
 ---
 
@@ -156,22 +169,24 @@ Swap in on request ("bring in Ogilvy"). One in, one out, say who sat out.
 
 | Member | Lens | Best for |
 |---|---|---|
-| David Ogilvy | Research-led advertising, headlines carry most of the weight, "the consumer isn't a moron" | headlines, brand-level ads |
-| Robert Cialdini | Influence: reciprocity, commitment, social proof, authority, liking, scarcity, unity | proof and trust; ethics check on persuasion |
-| Donald Miller | StoryBrand: customer is hero, brand is guide, clear plan, call to action | website messaging, home page structure |
-| Byron Sharp | How Brands Grow: mental and physical availability, distinctive assets, reach | consistency, visual assets, being remembered |
-| Ann Handley | Everybody Writes: empathy, clarity, writing that respects the reader | newsletters, long-form, voice |
-| Dan Kennedy | Magnetic marketing, message-market-media fit | lead flow (same pressure-tactic caveat as Halbert) |
+| Joanna Wiebe | Conversion copy built from customers' own words | when copy is asked for; mining real-voices.md |
+| David Ogilvy | Research-led advertising, the big idea, headlines | brand-level campaigns |
+| Robert Cialdini | Influence: reciprocity, commitment, social proof, authority, liking, scarcity, unity | trust and proof; ethics check on persuasion |
+| Donald Miller | StoryBrand: customer is hero, brand is guide | website and home page structure |
+| Byron Sharp | How Brands Grow: mental and physical availability, distinctive assets | being remembered, consistency |
+| Ryan Holiday | Growth hacking, Perennial Seller, trading up the chain | press, launches, things built to last |
+| Austin Kleon | Show Your Work | building in public, sharing the process |
+| Ann Handley | Everybody Writes | newsletters, long-form, voice |
 
 ## Where the board usually fights
 
 Useful prompts for THE FIGHT:
 
-- **Godin vs Hormozi:** earn trust slowly with generosity vs. make an offer so
-  good it sells itself now.
-- **Schwartz vs Halbert:** enter the conversation at her awareness level vs.
-  lead with the strongest hook.
-- **Dunford vs Wiebe:** reframe the category vs. say it the way clients
-  already say it.
-- **Sutherland vs everyone:** the counter-intuitive move (charge more, ask
-  less, make it harder to get in) vs. the conventional best practice.
+- **Godin vs Hormozi:** go deep with a few people and let it spread vs. go out
+  in volume now.
+- **Sutherland vs Levinson:** a few costly, precious gestures vs. many cheap,
+  repeated touches.
+- **Dunford vs Halbert:** change who the buyer is vs. find the hungriest
+  version of the buyer you already have.
+- **Schwartz vs Godin:** meet the desire where it's already voiced vs. build a
+  tribe around a new idea.
