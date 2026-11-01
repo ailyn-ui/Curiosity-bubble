@@ -88,6 +88,12 @@ What to collect:
   and the sales page.
 - **The price ladder**: list what exists at each price, from free to DIY,
   done-with-you and done-for-you. Empty bands are where opportunities sit.
+- **Counter-evidence**: look for signs that the pain is smaller than it
+  looks, or that part of the audience feels the opposite (relief, freedom).
+  It often changes the angle of the product, not just its size.
+- **Skews in the existing market**: notice when most of what exists shares
+  a slant (faith-based, clinical, aimed at beginners, US-only). The people it
+  leaves out are a gap.
 
 If WebFetch can't reach pages (a blocked network or a host that doesn't
 resolve), keep going with search-result excerpts, but label every quote
@@ -148,6 +154,10 @@ is that nobody connects the two:
 - Don't mention the consultancy or link to it in any product, page or launch
   copy, unless the user explicitly decides to.
 - If an idea of yours sounds like the consultancy's voice, rewrite it.
+- If the new audience overlaps with the user's own clients (for example,
+  mothers who are also founders), point it out at the ideas checkpoint so
+  the user decides knowingly. You may read the persona files to spot the
+  overlap, but never to borrow their voice.
 
 **Checkpoint:** the user picks a name and approves the brand.
 
