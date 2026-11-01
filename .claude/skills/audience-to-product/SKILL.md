@@ -125,6 +125,11 @@ in the research log: an idea with no evidence behind it doesn't go on the
 list. Vary the format (template, toolkit, mini-course, printable, Notion
 system, swipe file, calculator, AI prompt pack, workshop, membership).
 
+Keep each idea to **one product with one clear outcome**, something the
+user can make once and sell without having to run it (no cohorts, calls,
+bonuses or product ladders unless the user asks for them). Extra parts
+make an idea look bigger, but make it harder to build, sell and keep going.
+
 Score every idea with the rubric in `references/scoring.md`. Then:
 
 - show a ranked table,
