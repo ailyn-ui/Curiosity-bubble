@@ -1,5 +1,10 @@
 # Brand: the shared workbook for a mother and her almost-grown child
 
+> **Status (2026-11-01): ON HOLD. The user rejected this whole draft (name,
+> positioning, voice and look).** When the project resumes, start the brand
+> phase fresh: ask what didn't feel right before proposing anything, and
+> don't reuse these options unless the user asks for them.
+
 A stand-alone brand. Nothing here borrows the user's consultancy name, voice, palette or offers, and none of its files were read for style. The voice below comes from how the audience talks in the research files.
 
 ## 1. Name
