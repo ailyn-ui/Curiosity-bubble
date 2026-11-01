@@ -1,5 +1,17 @@
 # Ideas: mother and young adult, both deciding what's next
 
+> **Chosen direction (2026-11-01, user decision):** one product, one solution
+> for two people. **A shared guided workbook**: one PDF (print later), with
+> her page and theirs facing each other on each spread, worked through in
+> 5 self-paced sittings: (1) where we each are, (2) our options, (3) a
+> reality check (one real-world test each, plus the AI-resilience check),
+> (4) choosing (each presents a choice and the other only asks questions),
+> (5) two one-page plans. About $39–49, a one-time purchase by her.
+> Nothing to run: no program, calls, videos, bonuses or product ladder.
+> Marriage and money are out of scope. The headline test (lead with the
+> child vs. lead with her) still applies. The analysis below is kept for
+> reference; where it conflicts, this note wins.
+
 Scored with the same rubric, each criterion from 1 to 5: Demand ×3, Willingness to pay ×3, Gap ×2, Reach ×2, Speed ×1, Low risk ×1, for a total out of 60. The two earlier winners are included so you can compare.
 
 | # | Idea | Format | Price | D | W | G | R | S | Risk | **Total** |
