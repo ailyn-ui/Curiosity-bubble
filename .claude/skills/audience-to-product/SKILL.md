@@ -110,6 +110,14 @@ couldn't verify as *unverified*. Never invent quotes, numbers or review
 counts. If a source can't be reached, say so and move on. Close with the top
 pains, ranked by how often they appeared and how intense they were.
 
+**Combining audiences.** If the user wants to merge two earlier runs (for
+example a parent and their child), start a new `ventures/<slug>/` folder.
+Link to the earlier research instead of copying it, and research only
+**where the two meet**: who influences whom, who pays, and what happens
+when both are in it at once. Say plainly when the demand for the
+combination is inferred rather than observed, and score the earlier
+winners alongside the new ideas so the user can compare.
+
 ### Phase 2: Ideas and scoring → `02-ideas.md`
 
 Generate 8 to 12 ideas. Each one must point back to specific evidence lines
