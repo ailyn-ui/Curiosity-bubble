@@ -68,6 +68,7 @@ Default to **full board**.
 | Mode | Trigger | What happens |
 |---|---|---|
 | **Full board** | "ask the positioning board", "sharpen my positioning" | Board reads `positioning.md` and the evidence, each seat gives a read and one decision, then the fight, then the verdict (format below) |
+| **From scratch** | "start from scratch", "as if I had no clients", "blank page" | Ignores past clients and `positioning.md` as anchors (they become one hypothesis). Starts from Ailyn's assets, the alternatives and the business model; produces 3 competing positions, each with its onlyness line, struggling moment, alternative, one word, not-for and riskiest assumption; then a listening plan with strangers to pick one (format below) |
 | **Ideal client** | "who is my ideal client", "is my avatar right" | Builds the client from evidence: the struggling moment, the job, the forces, the words, who she is *not*. Compares to Sarah and Esti and lists the edits |
 | **Interview prep** | "prep a client interview", "what do I ask Dalia" | A short script for a real conversation (past client, prospect, someone who said no): Moesta's switch timeline + Fitzpatrick's rules + Young's open listening. Async version for voice notes. Max 8 questions |
 | **Debrief** | user pastes notes, a transcript, DMs or testimonials | Extracts the job, the four forces, the exact words, surprises. Adds quotes to `real-voices.md` (with permission), proposes changes to `positioning.md` and the avatars |
@@ -106,6 +107,34 @@ proposed edits: to positioning.md / avatar.md / esti.md (ask before writing)
 
 NEXT
 the one conversation Ailyn should have this week, and with whom
+```
+
+## From scratch format
+
+```
+STARTING ASSETS
+what Ailyn brings regardless of clients (skills, story, method, languages,
+model), each graded
+
+THE ALTERNATIVES
+what founders do today instead of hiring anyone like her
+
+THREE POSITIONS   (genuinely different bets, not three wordings of one)
+for each:
+  for:            who, defined by a moment or a way of thinking
+  onlyness:       "the only ___ that ___"  (Neumeier)
+  struggle:       the moment she starts looking for help  (Moesta)
+  instead:        what she'd do otherwise  (Dunford)
+  one word:       what Ailyn would own  (Ries & Trout)
+  not for:        (Godin)
+  riskiest guess: and the conversation that would test it  (Fitzpatrick, Young)
+
+THE FIGHT
+which bet each seat backs, and why
+
+LISTENING PLAN
+who to talk to for each position (strangers, no pitch), how many, the
+questions, and what answer would make a position win or die
 ```
 
 ## Rules for Ailyn's audience
