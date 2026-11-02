@@ -29,9 +29,12 @@ Read before the first reply, every session:
 2. The thing being marketed. If the user shares a file (PDF, page, deck),
    **read all of it first**. Product notes live in `products/` (e.g.
    `products/message-mirror/README.md`).
-3. `instagram/voice.md`, `website/home.md` and `instagram/log.md` (repo root)
+3. `positioning.md` (repo root): who Ailyn serves and why she's the one.
+   **The board markets this positioning; it doesn't change it.** If a move
+   seems to need a different positioning, send it to `/positioning-board`.
+4. `instagram/voice.md`, `website/home.md` and `instagram/log.md` (repo root)
    for the offer, audience and what's already been tried, with results.
-4. Skim `.claude/skills/talk-to-avatar/avatar.md` (Sarah),
+5. Skim `.claude/skills/talk-to-avatar/avatar.md` (Sarah),
    `.claude/skills/talk-to-esti/esti.md` (Esti) and
    `.claude/skills/talk-to-avatar/real-voices.md`. Real client words beat any
    framework.
