@@ -17,5 +17,9 @@ Copy: hook from /socmed-hook-engine (Bold Declaration, the article title); full 
 
 ## Motion
 
-0–2 s five ideas swirl in · 2–6 s they grow together · 6–12 s they leave one by one, the butterfly stays and wanders ·
-18–23 s one peony grows · 23–26 s a bird lands beside it · 26–30 s bird and butterfly fly off as the CTA comes in.
+Text sits in the middle of the frame; the ideas move around and across it, with a soft paper mist behind the words so they stay readable.
+0–2 s four ideas (swoosh, flower, butterfly, palm) swirl in around the words · 2–6 s they grow together ·
+6–10 s they leave one by one; the butterfly stays and wanders across the words · 18–23 s one peony grows ·
+23–25 s a bird flies in and lands on its branch, where it stays · 26–28 s the butterfly comes to rest on the peony as the CTA comes in.
+
+Sound: pad, a pluck per card, chimes on pink words, a rising note as each idea leaves, landing tick and chirps. No whooshes.

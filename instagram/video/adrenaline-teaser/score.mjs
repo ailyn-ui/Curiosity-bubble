@@ -65,7 +65,7 @@ pad(18.3, 25.3, ['D3', 'A3', 'F#4'], 0.04, 2.5);           // the breath: the bl
 pad(25.3, 30.0, ['G2', 'D3', 'A3', 'B3', 'F#4'], 0.055, 1.2, 1.2);
 
 // Ideas leave one by one (6.0, 7.4, 8.8, 10.2): a soft rising note for each, like letting go
-[[6.0, 'D5', -0.6], [7.4, 'E5', -0.4], [8.8, 'F#5', 0.5], [10.2, 'A5', 0.7]].forEach(([t, n, pn]) => pluck(t + 0.5, n, 0.14, pn, 0.997));
+[[6.0, 'D5', -0.6], [7.6, 'F#5', -0.4], [9.2, 'A5', 0.6]].forEach(([t, n, pn]) => pluck(t + 0.5, n, 0.14, pn, 0.997));
 
 // Text cards appear: a soft pluck each time
 [[0.4, 'A4'], [4.5, 'F#4'], [9.4, 'B4'], [13.7, 'D5'], [19.7, 'A4'], [25.5, 'F#5']].forEach(([t, n], k) => pluck(t, n, 0.22, k % 2 ? 0.25 : -0.25));
