@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Today's posts · {{DATE}}</title>
+    <style>
+      /* Short-Form Specialist daily posts. Dark by default, one accent
+     (ember = ready to ship). Keep this design as-is: fill the slots, repeat
+     the marked post block, change nothing else. Light theme via
+     prefers-color-scheme. */
+      :root {
+        --bg: #121211;
+        --card: #1b1b1a;
+        --ink: #f0efe9;
+        --ink-2: #b5b4ac;
+        --ink-3: #7d7c74;
+        --line: rgba(255, 255, 255, 0.1);
+        --accent: #e0956f;
+        --accent-soft: rgba(224, 149, 111, 0.1);
+        --accent-line: rgba(224, 149, 111, 0.35);
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #fafaf8;
+          --card: #ffffff;
+          --ink: #1a1a18;
+          --ink-2: #55554f;
+          --ink-3: #8a8a82;
+          --line: rgba(0, 0, 0, 0.09);
+          --accent: #b85c3f;
+          --accent-soft: rgba(184, 92, 63, 0.07);
+          --accent-line: rgba(184, 92, 63, 0.28);
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          16px/1.65 ui-sans-serif,
+          -apple-system,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .page {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        margin: 8px 0 10px;
+      }
+      .intro {
+        font-size: 16px;
+        color: var(--ink-2);
+        margin: 0 0 28px;
+      }
+      .post {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin: 0 0 16px;
+        counter-increment: post;
+      }
+      .post .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin: 0 0 12px;
+      }
+      .post .label {
+        font-size: 13px;
+        font-weight: 650;
+        color: var(--ink-2);
+      }
+      .post .label::before {
+        content: "Post " counter(post) " · ";
+        color: var(--ink-3);
+      }
+      .chips {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+      .chip {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        padding: 2px 9px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        border: 1px solid var(--accent-line);
+        white-space: nowrap;
+      }
+      .text {
+        border-left: 3px solid var(--accent);
+        background: var(--accent-soft);
+        border-radius: 0 10px 10px 0;
+        padding: 12px 16px;
+        margin: 0 0 12px;
+        font-size: 16.5px;
+        line-height: 1.55;
+        white-space: pre-line;
+      }
+      .text .seg {
+        display: block;
+        padding: 6px 0;
+        border-top: 1px dashed var(--line);
+      }
+      .text .seg:first-child {
+        border-top: 0;
+        padding-top: 0;
+      }
+      .kv {
+        font-size: 13.5px;
+        margin: 4px 0;
+        color: var(--ink-2);
+      }
+      .kv b {
+        color: var(--ink);
+        font-weight: 650;
+      }
+      .status {
+        margin-top: 10px;
+        padding-top: 8px;
+        border-top: 1px dashed var(--line);
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--accent);
+      }
+      .lead {
+        margin-top: 28px;
+        padding: 14px 18px;
+        border: 1px solid var(--accent-line);
+        border-radius: 12px;
+        font-size: 14.5px;
+        color: var(--ink-2);
+      }
+      .lead b {
+        color: var(--ink);
+      }
+      .foot {
+        margin-top: 32px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+        color: var(--ink-3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="eyebrow">Short-Form Specialist</div>
+      <h1>{{DATE_HUMAN}}</h1>
+      <p class="intro">{{WHERE_TODAYS_MATERIAL_CAME_FROM_ONE_LINE}}</p>
+
+      <!-- REPEAT per post (1-3) -->
+      <div class="post">
+        <div class="head">
+          <div class="label">{{PLATFORM}} · {{ACCOUNT_HANDLE}}</div>
+          <div class="chips">
+            <span class="chip">{{SHAPE e.g. concise assertion}}</span>
+            <span class="chip">{{ANGLE_FAMILY}}</span>
+          </div>
+        </div>
+        <div class="text">
+          <!-- one .seg per thread segment; a single post uses one .seg -->
+          <span class="seg">{{POST_TEXT_EXACTLY_AS_PUBLISHED}}</span>
+        </div>
+        <p class="kv"><b>Rides:</b> {{ANGLE_FAMILY}} · {{OPENING_FAMILY}} · {{ENDING_FAMILY}}</p>
+        <p class="kv">
+          <b>Receipt:</b> @{{HANDLE}} ({{PLATFORM}}) · {{X.X}}x baseline · {{WHAT_ITS_SHAPE_PROVED}}
+        </p>
+        <!-- omit when nothing is unverified: <p class="kv"><b>Unverified:</b> {{WHAT_TO_CHECK}}</p> -->
+        <div class="status">
+          {{HANDOFF_STATUS e.g. Draft saved on @handle · no publish time · you pick the time}}
+        </div>
+      </div>
+      <!-- /REPEAT -->
+
+      <div class="lead"><b>Lead with today:</b> {{WHICH_POST_AND_WHY_ONE_LINE}}</div>
+
+      <div class="foot">
+        {{N_CALLS}} Eden calls · material: {{MATERIAL_SOURCE}} · logged to your “Short-Form
+        Specialist” board · drafts only, nothing publishes without you
+      </div>
+    </div>
+  </body>
+</html>

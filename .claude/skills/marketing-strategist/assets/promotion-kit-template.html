@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Promotion Kit: {{OFFER}}</title>
+    <style>
+      /* Marketing Strategist: the Promotion Kit. One accent (copper = the
+     promotion that runs today). Keep this design as-is: fill the slots,
+     repeat the marked day and email blocks, change nothing else. Dark by
+     default, light via prefers-color-scheme. */
+      :root {
+        --bg: #121211;
+        --card: #1b1b1a;
+        --ink: #f0efe9;
+        --ink-2: #b5b4ac;
+        --ink-3: #7d7c74;
+        --line: rgba(255, 255, 255, 0.1);
+        --accent: #d97757;
+        --accent-soft: rgba(217, 119, 87, 0.1);
+        --accent-line: rgba(217, 119, 87, 0.35);
+        --ok: #73b490;
+        --warn: #d9a44a;
+      }
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #fafaf8;
+          --card: #ffffff;
+          --ink: #1a1a18;
+          --ink-2: #55554f;
+          --ink-3: #8a8a82;
+          --line: rgba(0, 0, 0, 0.09);
+          --accent: #b85c3f;
+          --accent-soft: rgba(184, 92, 63, 0.07);
+          --accent-line: rgba(184, 92, 63, 0.28);
+          --ok: #2f6f4c;
+          --warn: #92600a;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          16px/1.65 ui-sans-serif,
+          -apple-system,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .page {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        margin: 8px 0 8px;
+      }
+      .intro {
+        font-size: 17px;
+        color: var(--ink-2);
+        margin: 0 0 32px;
+      }
+      h2 {
+        font-size: 13px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+        margin: 40px 0 14px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+      }
+      h3 {
+        font-size: 15px;
+        font-weight: 650;
+        color: var(--ink-2);
+        margin: 22px 0 10px;
+      }
+      .diag {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-left: 3px solid var(--accent);
+        border-radius: 14px;
+        padding: 16px 20px;
+      }
+      .diag .row {
+        display: grid;
+        grid-template-columns: 130px 1fr;
+        gap: 12px;
+        font-size: 14.5px;
+        padding: 6px 0;
+        border-bottom: 1px dashed var(--line);
+      }
+      .diag .row:last-child {
+        border-bottom: 0;
+      }
+      .diag .k {
+        color: var(--ink-3);
+        font-weight: 600;
+      }
+      .diag .congruence {
+        color: var(--accent);
+        font-weight: 600;
+      }
+      .week-plan {
+        font-size: 13.5px;
+        color: var(--ink-2);
+        margin: 0 0 12px;
+      }
+      .day {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 14px 18px;
+        margin: 0 0 12px;
+      }
+      .day .head {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 10px;
+        align-items: center;
+        margin: 0 0 10px;
+        font-size: 13px;
+      }
+      .day .num {
+        font-weight: 700;
+        color: var(--ink);
+        font-size: 15px;
+      }
+      .day .date {
+        color: var(--ink-3);
+      }
+      .chip {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        padding: 2px 9px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        border: 1px solid var(--accent-line);
+      }
+      .chip.quiet {
+        color: var(--ink-2);
+        background: transparent;
+        border-color: var(--line);
+      }
+      .copy {
+        white-space: pre-line;
+        font-size: 15px;
+        margin: 0;
+      }
+      .copy .placement {
+        color: var(--ink-3);
+        font-size: 13px;
+      }
+      .congr {
+        margin: 10px 0 0;
+        font-size: 13px;
+        color: var(--ink-3);
+      }
+      .email {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px 20px;
+        margin: 0 0 14px;
+      }
+      .email .job {
+        font-size: 16px;
+        font-weight: 650;
+        margin: 0 0 8px;
+      }
+      .email .meta {
+        font-size: 13px;
+        color: var(--ink-3);
+        margin: 0 0 10px;
+      }
+      .subject {
+        font-size: 14px;
+        margin: 4px 0;
+        padding: 6px 10px;
+        border-radius: 8px;
+        background: var(--accent-soft);
+      }
+      .subject b {
+        color: var(--accent);
+        font-weight: 650;
+        margin-right: 6px;
+      }
+      .email .body {
+        white-space: pre-line;
+        font-size: 15px;
+        margin: 12px 0 0;
+        padding-top: 12px;
+        border-top: 1px dashed var(--line);
+      }
+      .brief {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 6px 20px 10px;
+      }
+      .brief .row {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        gap: 12px;
+        font-size: 14.5px;
+        padding: 9px 0;
+        border-bottom: 1px dashed var(--line);
+      }
+      .brief .row:last-child {
+        border-bottom: 0;
+      }
+      .brief .k {
+        color: var(--ink-3);
+        font-weight: 600;
+      }
+      .flag {
+        color: var(--warn);
+        font-weight: 600;
+        font-size: 12px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13.5px;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 8px 10px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      th {
+        font-size: 11px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+        font-weight: 600;
+      }
+      td.resp {
+        color: var(--ok);
+      }
+      .foot {
+        margin-top: 40px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+        color: var(--ink-3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="eyebrow">Promotion kit</div>
+      <h1>Promotion Kit: {{OFFER}}</h1>
+      <p class="intro">
+        {{ONE_LINE_WHO_RESULT_PRICE}} · built {{DATE_BUILT}} · last weekly run {{DATE_LAST_RUN}}
+      </p>
+
+      <h2>Diagnosis</h2>
+      <div class="diag">
+        <div class="row">
+          <span class="k">Awareness</span><span>{{STAGE}}. {{WHY_ONE_LINE}}</span>
+        </div>
+        <div class="row">
+          <span class="k">Sophistication</span>
+          <span
+            >Level {{N}}, {{LEVEL_NAME}}. Found: {{WHAT_ADS_AND_POSTS_SHOWED}} Inferred:
+            {{WHAT_YOU_CONCLUDE}}</span
+          >
+        </div>
+        <div class="row">
+          <span class="k">Escalation move</span><span>{{THE_MOVE_THIS_MARKET_STILL_REWARDS}}</span>
+        </div>
+        <div class="row">
+          <span class="k">Congruence line</span
+          ><span class="congruence">{{THE_ONE_PROMISE_EVERY_PROMO_POINTS_AT}}</span>
+        </div>
+        <div class="row">
+          <span class="k">Rejected angles</span><span>{{FROM_SETTINGS_OR_NONE_YET}}</span>
+        </div>
+      </div>
+
+      <h2>Social promotions</h2>
+      <!-- REPEAT per week (4 to 5) -->
+      <h3>Week {{W}}</h3>
+      <p class="week-plan">Angles this week: {{FIVE_ANGLES_IN_ORDER}}</p>
+
+      <!-- REPEAT per day (7 per week) -->
+      <div class="day">
+        <div class="head">
+          <span class="num">{{N}}.</span>
+          <span class="date">{{DAY_AND_DATE}}</span>
+          <span class="chip">{{FORMAT e.g. reply plug}}</span>
+          <span class="chip quiet">{{ANGLE}}</span>
+          <span class="chip quiet">{{LEAD_TYPE}} lead</span>
+          <span class="chip quiet">{{WHERE_IT_RUNS}}</span>
+        </div>
+        <p class="copy">
+          <span class="placement"
+            >{{PLACEMENT e.g. under today's post about … / after the section on …}}</span
+          >
+          {{THE_PROMOTION_READY_TO_PASTE}}
+        </p>
+        <p class="congr">Congruence: {{ONLY_WHEN_IT_DIFFERS_FROM_THE_KIT_LINE}}</p>
+      </div>
+      <!-- /REPEAT day -->
+      <!-- /REPEAT week -->
+
+      <h2>Email promotions</h2>
+      <p class="week-plan">
+        {{LAUNCH_OR_EVERGREEN_LINE e.g. Launch sequence, 6 emails, opens Oct 1, closes Oct 7}}
+      </p>
+
+      <!-- REPEAT per email (5 to 7) -->
+      <div class="email">
+        <p class="job">Email {{I}} of {{N}}: {{THE_JOB e.g. the mechanism}}</p>
+        <p class="meta">
+          {{LEAD_TYPE}} lead · send {{DAY_OR_OFFSET}} · link: {{THE_ONE_LINK}} · call to action:
+          {{ONE_CTA}}
+        </p>
+        <div class="subject"><b>A</b>{{SUBJECT_A}} <span class="flag">{{FAMILY_A}}</span></div>
+        <div class="subject"><b>B</b>{{SUBJECT_B}} <span class="flag">{{FAMILY_B}}</span></div>
+        <p class="body">{{EMAIL_BODY_FIRST_LINE_DIFFERENT_FROM_BOTH_SUBJECTS}}</p>
+      </div>
+      <!-- /REPEAT email -->
+
+      <h2>Landing page brief</h2>
+      <div class="brief">
+        <div class="row">
+          <span class="k">Reader</span><span>Awareness {{STAGE}}, market level {{N}}</span>
+        </div>
+        <div class="row">
+          <span class="k">Lead and opening hook</span
+          ><span>{{LEAD_TYPE}}. {{WINNING_HOOK_VERBATIM}}</span>
+        </div>
+        <div class="row"><span class="k">Big idea</span><span>{{BIG_IDEA}}</span></div>
+        <div class="row"><span class="k">Mechanism</span><span>{{MECHANISM}}</span></div>
+        <div class="row">
+          <span class="k">Guarantee</span><span>{{GUARANTEE_IN_THE_READERS_TERMS}}</span>
+        </div>
+        <div class="row">
+          <span class="k">Price framing</span><span>{{ANCHOR_AND_WHAT_IT_IS_FRAMED_AGAINST}}</span>
+        </div>
+        <div class="row"><span class="k">Proof available</span><span>{{PROOF_LIST}}</span></div>
+        <div class="row">
+          <span class="k">Proof gaps</span
+          ><span>{{GAPS}} <span class="flag">prove this</span></span>
+        </div>
+        <div class="row">
+          <span class="k">For / not for</span><span>{{FOR}} / {{NOT_FOR}}</span>
+        </div>
+        <div class="row"><span class="k">The one call to action</span><span>{{CTA}}</span></div>
+        <div class="row">
+          <span class="k">Congruence line</span><span>{{CONGRUENCE_LINE}}</span>
+        </div>
+      </div>
+
+      <h2>Promotion log</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>#</th>
+            <th>Format</th>
+            <th>Angle</th>
+            <th>Lead</th>
+            <th>Where</th>
+            <th>Response</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- REPEAT per promotion written -->
+          <tr>
+            <td>{{DATE}}</td>
+            <td>{{N}}</td>
+            <td>{{FORMAT}}</td>
+            <td>{{ANGLE}}</td>
+            <td>{{LEAD}}</td>
+            <td>{{WHERE_OR_SAVED_AS_DRAFT}}</td>
+            <td class="resp">{{BLANK_UNTIL_REPORTED}}</td>
+          </tr>
+          <!-- /REPEAT -->
+        </tbody>
+      </table>
+
+      <div class="foot">
+        {{N_ADS_SEARCHES}} ad searches · {{N_POST_SEARCHES}} post searches · {{N_READS}} full reads
+        · {{N_OWN_POSTS}} of your posts read · saved to your Eden “Promotion” board
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Long-Form Outline: {{WORKING_TITLE}}</title>
+    <style>
+      /* Long-Form Outliner note. One accent (copper = the writer's own
+     material). Keep this design as-is: fill the slots, repeat the marked
+     beat block and loop row, change nothing else. Light theme by default,
+     dark via prefers-color-scheme. */
+      :root {
+        --bg: #fafaf8;
+        --card: #ffffff;
+        --ink: #1a1a18;
+        --ink-2: #55554f;
+        --ink-3: #8a8a82;
+        --line: rgba(0, 0, 0, 0.09);
+        --accent: #8a3f22;
+        --accent-soft: rgba(138, 63, 34, 0.07);
+        --accent-line: rgba(138, 63, 34, 0.28);
+        --slate: #2b5d8a;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #121211;
+          --card: #1b1b1a;
+          --ink: #f0efe9;
+          --ink-2: #b5b4ac;
+          --ink-3: #7d7c74;
+          --line: rgba(255, 255, 255, 0.1);
+          --accent: #d97757;
+          --accent-soft: rgba(217, 119, 87, 0.1);
+          --accent-line: rgba(217, 119, 87, 0.35);
+          --slate: #7fb0d8;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font:
+          16px/1.65 ui-sans-serif,
+          -apple-system,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .page {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      .eyebrow {
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        margin: 8px 0 6px;
+      }
+      .meta {
+        font-size: 14px;
+        color: var(--ink-3);
+        margin: 0 0 28px;
+      }
+      h2 {
+        font-size: 13px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--ink-3);
+        margin: 34px 0 10px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin: 0 0 12px;
+      }
+      .contract {
+        border-left: 3px solid var(--accent);
+        background: var(--accent-soft);
+        border-radius: 0 10px 10px 0;
+        padding: 12px 16px;
+        font-size: 17px;
+        font-weight: 550;
+      }
+      .kv {
+        font-size: 14px;
+        margin: 6px 0;
+        color: var(--ink-2);
+      }
+      .kv b {
+        color: var(--ink);
+        font-weight: 650;
+      }
+      .chip {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        padding: 2px 9px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        border: 1px solid var(--accent-line);
+        margin-left: 6px;
+        vertical-align: 2px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 8px 10px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      th {
+        color: var(--ink-3);
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      td:first-child {
+        color: var(--ink-2);
+        white-space: nowrap;
+      }
+      .beat {
+        counter-increment: beat;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 18px 20px;
+        margin: 0 0 14px;
+      }
+      .beat .name {
+        font-size: 18px;
+        font-weight: 650;
+        letter-spacing: -0.015em;
+        margin: 0 0 8px;
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        align-items: baseline;
+      }
+      .beat .name::before {
+        content: "Beat " counter(beat) ". ";
+        color: var(--ink-3);
+        font-weight: 500;
+      }
+      .beat .budget {
+        font-size: 12px;
+        color: var(--accent);
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+        font-weight: 600;
+      }
+      .beat .flag {
+        margin-top: 10px;
+        font-size: 13px;
+        color: var(--slate);
+        font-weight: 550;
+      }
+      .placeholder {
+        background: var(--accent-soft);
+        border: 1px dashed var(--accent-line);
+        border-radius: 6px;
+        padding: 0 6px;
+        color: var(--accent);
+      }
+      .sample {
+        border-left: 3px solid var(--accent);
+        background: var(--accent-soft);
+        border-radius: 0 10px 10px 0;
+        padding: 10px 14px;
+        margin: 10px 0 0;
+        font-weight: 550;
+        white-space: pre-line;
+      }
+      .foot {
+        margin-top: 40px;
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+        color: var(--ink-3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="eyebrow">Long-form outline</div>
+      <h1>{{WORKING_TITLE}}</h1>
+      <p class="meta">{{FORMAT}} · {{PLATFORM}} · {{TARGET_LENGTH_OR_RUNTIME}} · {{DATE}}</p>
+
+      <h2>Package</h2>
+      <div class="card">
+        <p class="kv">
+          <b>Primary:</b> {{PRIMARY_TITLE_OR_SUBJECT}}<span class="chip">{{FAMILY}}</span>
+        </p>
+        <p class="kv">{{OPENING_LINE_OR_THUMBNAIL_AND_FIRST_FIVE_SECONDS}}</p>
+        <p class="kv"><b>Alternative:</b> {{ALT_1}}<span class="chip">{{ALT_1_FAMILY}}</span></p>
+        <p class="kv"><b>Alternative:</b> {{ALT_2}}<span class="chip">{{ALT_2_FAMILY}}</span></p>
+        <p class="kv">
+          <b>Market signal:</b> {{LANE_SEARCHED}} · {{OBSERVED_FAMILIES}} · saturated: {{SATURATED}}
+          · open: {{OPEN_LANES}}
+        </p>
+      </div>
+
+      <h2>Opening contract</h2>
+      <div class="contract">
+        This piece helps {{READER}} move from {{STARTING_STATE}} to {{PROMISED_CHANGE}} through
+        {{MECHANISM}}, supported by {{PROOF}}.
+      </div>
+
+      <h2>The reframe</h2>
+      <div class="card">
+        <div class="sample">{{REFRAME_IN_THE_WRITERS_VOICE}}</div>
+      </div>
+
+      <h2>Prewriting card</h2>
+      <div class="card">
+        <table>
+          <tr>
+            <td>Working topic</td>
+            <td>{{TOPIC}}</td>
+          </tr>
+          <tr>
+            <td>Reader</td>
+            <td>{{READER_AND_WHAT_THEY_CARRY}}</td>
+          </tr>
+          <tr>
+            <td>Current belief</td>
+            <td>{{CURRENT_BELIEF}}</td>
+          </tr>
+          <tr>
+            <td>Needed belief</td>
+            <td>{{NEEDED_BELIEF}}</td>
+          </tr>
+          <tr>
+            <td>Central claim</td>
+            <td>{{CENTRAL_CLAIM}}</td>
+          </tr>
+          <tr>
+            <td>Evidence</td>
+            <td>{{EVIDENCE}}</td>
+          </tr>
+          <tr>
+            <td>Application</td>
+            <td>{{APPLICATION}}</td>
+          </tr>
+          <tr>
+            <td>Primary call to action</td>
+            <td>{{PRIMARY_CTA}}</td>
+          </tr>
+        </table>
+      </div>
+
+      <h2>Route</h2>
+      <div class="card">
+        <p class="kv"><b>Chosen:</b> {{ROUTE_NAME}}: {{WHY_ONE_LINE}}</p>
+        <p class="kv">
+          <b>Also considered:</b> {{ROUTE_2}}: {{WHY_IT_LOST}} · {{ROUTE_3}}: {{WHY_IT_LOST}}
+        </p>
+      </div>
+
+      <h2>Beat by beat</h2>
+      <!-- REPEAT per beat -->
+      <div class="beat">
+        <div class="name">
+          <span>{{BEAT_NAME}}</span>
+          <span class="budget">{{BUDGET e.g. 250 to 400 words, or 14% · ~2 min}}</span>
+        </div>
+        <p class="kv"><b>Job:</b> {{WHAT_THIS_BEAT_DOES_TO_THE_READERS_UNDERSTANDING}}</p>
+        <p class="kv"><b>Reader question:</b> {{THE_QUESTION_IT_ANSWERS}}</p>
+        <p class="kv"><b>Claim:</b> {{THE_NEW_CLAIM}}</p>
+        <p class="kv"><b>Evidence:</b> {{SPECIFIC_STORY_EXAMPLE_OR_NUMBER_FROM_THE_INTERVIEW}}</p>
+        <p class="kv"><b>Re-hook:</b> {{LOOP_OPENED_OR_TRANSITION}}</p>
+        <div class="sample">{{ONE_SAMPLE_LINE_IN_THEIR_VOICE_OPTIONAL}}</div>
+        <p class="flag">
+          Flags: <span class="placeholder">[{{EXACT_DETAIL_TO_FILL}}]</span> ·
+          {{VULNERABILITY_OR_NAMED_METHOD_WHEN_IT_LANDS_HERE}}
+        </p>
+      </div>
+      <!-- /REPEAT -->
+
+      <h2>Re-hook map</h2>
+      <div class="card">
+        <table>
+          <tr>
+            <th>Loop</th>
+            <th>Opens</th>
+            <th>Closes</th>
+          </tr>
+          <!-- REPEAT per loop -->
+          <tr>
+            <td>{{THE_QUESTION_THE_READER_IS_HOLDING}}</td>
+            <td>Beat {{N}}</td>
+            <td>Beat {{N}}</td>
+          </tr>
+          <!-- /REPEAT -->
+        </table>
+      </div>
+
+      <h2>Ending</h2>
+      <div class="card">
+        <p class="kv"><b>Move:</b> {{OPEN_QUESTION_RESONANT_IMAGE_OR_IDENTITY_REFRAME}}</p>
+        <div class="sample">{{ENDING_SAMPLE_LINE_IN_THEIR_VOICE}}</div>
+        <p class="kv"><b>Then the ask:</b> {{PRIMARY_CTA_AFTER_THE_RESOLUTION}}</p>
+      </div>
+
+      <h2>Emotional arc</h2>
+      <div class="card">
+        <p class="kv">
+          {{REGISTER_PER_BEAT e.g. Beat 1 recognized · Beat 2 uneasy · Beat 5 hopeful}}
+        </p>
+      </div>
+
+      <h2>Differentiation note</h2>
+      <div class="card">
+        <p class="kv">{{THINGS_THAT_WOULD_NEVER_APPEAR_IN_THE_GENERIC_VERSION}}</p>
+      </div>
+
+      <h2>Budget</h2>
+      <div class="card">
+        <p class="kv">{{TOTAL_AND_PER_BEAT_SPLIT}}</p>
+      </div>
+
+      <div class="foot">
+        {{N_RESEARCH_CALLS}} research calls · {{N_PIECES_READ}} pieces read in full · saved to your
+        Eden “Long-form outlines” board · you write the piece
+      </div>
+    </div>
+  </body>
+</html>
