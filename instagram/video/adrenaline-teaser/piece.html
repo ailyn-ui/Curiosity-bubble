@@ -18,7 +18,9 @@ const C_PAPER = '#FBFAF6', C_INK = '#0B0B0B', C_PINK = '#E6005C';
 // ---------- timeline (seconds) ----------
 const T = {
   ensoDraw: [7.0, 10.6],
-  settle: [12.0, 16.5],
+  settle: [6.0, 12.8],
+  // the ideas leave one by one; the butterfly stays
+  depart: { swoosh: [6.0, 7.3], palm: [7.4, 8.7], monstera: [8.8, 10.1], cosmos: [10.2, 11.5], butterfly: [11.0, 12.8] },
   mountain: [12.4, 15.6],
   mist: [12.0, 30.0],
   peony: [18.4, 22.6],
@@ -98,7 +100,8 @@ function drawEl(name, x, y, size, rot, alpha, f, id, sx = 1, sy = 1) {
 
 // ---------- the swirl ----------
 // rate 1 until 9 s, then slows to a stop by 13 s; tau is its integral (time for the orbit).
-function tau(t) { if (t < 9) return t; if (t < 13) { const u = t - 9; return 9 + u - u * u / 8; } return 11; }
+// orbit time: full speed while they arrive, then they slow down and turn gently together
+function tau(t) { if (t < 2) return t; if (t < 5) { const u = t - 2; return 2 + u - 0.7 * u * u / 6; } return 3.95 + 0.3 * (t - 5); }
 
 const VARIANT = 'C';
 // Where each idea comes to rest, per layout option. off: true = it flies out of frame.
@@ -133,7 +136,7 @@ const SW = [ // name, base size, orbit radius, entry point
 
 function orbitPos(i, t) {
   const e = SW[i], th0 = i * Math.PI * 2 / SW.length, ta = tau(t);
-  const grow = lerp(0.72, 1.05, easeInOut(prog(t, 1.5, 7)));
+  const grow = lerp(0.72, 0.82, easeInOut(prog(t, 1.5, 6)));
   const th = th0 + ta * 0.95 * (1 + 0.12 * Math.sin(i * 1.7));
   const rr = e.r * grow * (1 + 0.1 * Math.sin(ta * 1.3 + i * 2.1));
   return { x: CX + Math.cos(th) * rr, y: CY + 50 + Math.sin(th) * rr * 0.76, th };
@@ -148,10 +151,11 @@ function swirlState(i, t) {
   if (t < enterB) { const p = easeOut(prog(t, enterA, enterB)); x = lerp(e.from[0], op.x, p); y = lerp(e.from[1], op.y, p); const o2 = orbitPos(i, t); x = lerp(x, o2.x, p * p); y = lerp(y, o2.y, p * p); }
   else { x = op.x; y = op.y; }
   const ta = tau(t);
-  let size = e.s * lerp(0.8, 1.0, easeInOut(prog(t, 1.5, 7))) * (1 + 0.12 * Math.sin(ta * 2.1 + i));
+  let size = e.s * lerp(0.8, 1.3, easeInOut(prog(t, 1.5, 6))) * (1 + 0.06 * Math.sin(ta * 2.1 + i));
   let rot = Math.sin(ta * 0.8 + i * 1.3) * 0.5 + (i % 2 ? 1 : -1) * ta * 0.25;
   // settle into the wreath
-  const sp = easeInOut(prog(t, T.settle[0] + i * 0.14, T.settle[1] - (SW.length - 1 - i) * 0.08));
+  const dw = T.depart[e.n], sl = slotPos(i);
+  const sp = (sl.off ? easeIn : easeInOut)(prog(t, dw[0], dw[1]));
   if (sp > 0) {
     const s = slotPos(i);
     x = lerp(x, s.x, sp); y = lerp(y, s.y, sp); size = lerp(size, s.s, sp);

@@ -64,13 +64,8 @@ pad(13.4, 18.3, ['E3', 'B3', 'D4', 'G4'], 0.045);          // ideas leave: thinn
 pad(18.3, 25.3, ['D3', 'A3', 'F#4'], 0.04, 2.5);           // the breath: the bloom
 pad(25.3, 30.0, ['G2', 'D3', 'A3', 'B3', 'F#4'], 0.055, 1.2, 1.2);
 
-// Ideas swirl in from the edges (entry 0.1 + i*0.22, 1.1 s each).
-const pans = [-0.8, 0.8, -0.6, 0.7, -0.5];
-for (let i = 0; i < 5; i++) noise(0.1 + i * 0.22, 1.1, 300, 2400, 0.22, pans[i], pans[i] * -0.2);
-// the swirl keeps moving: soft periodic whooshes while it orbits
-for (let t = 1.8; t < 12.5; t += 1.35) noise(t, 1.1, 500, 1500, 0.08 + 0.04 * Math.sin(t), -0.5, 0.5);
-// Ideas fly off (settle 12–16.5): four whooshes going out
-[12.0, 12.4, 12.8, 13.3].forEach((t, k) => noise(t, 1.4, 1600, 400, 0.18, 0, [-.9, .9, .8, -.8][k]));
+// Ideas leave one by one (6.0, 7.4, 8.8, 10.2): a soft rising note for each, like letting go
+[[6.0, 'D5', -0.6], [7.4, 'E5', -0.4], [8.8, 'F#5', 0.5], [10.2, 'A5', 0.7]].forEach(([t, n, pn]) => pluck(t + 0.5, n, 0.14, pn, 0.997));
 
 // Text cards appear: a soft pluck each time
 [[0.4, 'A4'], [4.5, 'F#4'], [9.4, 'B4'], [13.7, 'D5'], [19.7, 'A4'], [25.5, 'F#5']].forEach(([t, n], k) => pluck(t, n, 0.22, k % 2 ? 0.25 : -0.25));
@@ -78,17 +73,13 @@ for (let t = 1.8; t < 12.5; t += 1.35) noise(t, 1.1, 500, 1500, 0.08 + 0.04 * Ma
 [[1.2, 'D6'], [11.2, 'A5'], [15.3, 'F#5'], [21.2, 'D6'], [25.8, 'A5']].forEach(([t, n]) => bell(t, n, 0.05, 0.1));
 
 // The peony grows (18.4–22.6): a slow rising breath, then a chime as it opens
-noise(18.4, 4.2, 200, 1800, 0.07, 0, 0, 'rise');
 bell(22.6, 'D5', 0.07, -0.1); bell(22.65, 'A5', 0.05, 0.1);
 
 // The bird flies in (22.7–24.6): wing flutter, landing tick, two chirps
-noise(22.7, 1.9, 1200, 2200, 0.1, 0.9, 0.5, 'swell', 9);
 noise(24.6, 0.12, 3000, 3000, 0.2, 0.5, 0.5, 'hit');
 chirp(24.95, 3200, 4200, 0.07, 0.035, 0.6); chirp(25.08, 3400, 4600, 0.06, 0.03, 0.6);
 chirp(26.4, 3000, 4400, 0.08, 0.03, 0.6);
 // Take-off (26.0–28.8) and the butterfly following (26.4–29.4)
-noise(26.0, 2.6, 1500, 2600, 0.12, 0.5, 0.95, 'swell', 10);
-noise(26.4, 2.8, 2500, 3500, 0.04, 0.0, 0.9, 'swell', 14);
 // End: final pluck resolves
 pluck(28.6, 'D4', 0.18, 0); pluck(28.62, 'A4', 0.12, 0.2);
 

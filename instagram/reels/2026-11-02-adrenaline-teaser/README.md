@@ -17,5 +17,5 @@ Copy: hook from /socmed-hook-engine (Bold Declaration, the article title); full 
 
 ## Motion
 
-0–9 s five ideas swirl in from the edges · 9–13 s they keep circling · 13–17 s they fly off, the butterfly stays and wanders ·
+0–2 s five ideas swirl in · 2–6 s they grow together · 6–12 s they leave one by one, the butterfly stays and wanders ·
 18–23 s one peony grows · 23–26 s a bird lands beside it · 26–30 s bird and butterfly fly off as the CTA comes in.
