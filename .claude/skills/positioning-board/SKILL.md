@@ -4,13 +4,14 @@ description: >-
   Put Ailyn's positioning and her ideal client in front of a board of the best
   minds on positioning and customer understanding - April Dunford, Ries &
   Trout, Marty Neumeier, Seth Godin, Bob Moesta (Jobs to be Done), Rob
-  Fitzpatrick (The Mom Test) and Indi Young (listening sessions) - to sharpen
+  Fitzpatrick (The Mom Test) and Indi Young (listening sessions), with Ethan
+  Mollick as a standing AI lens - to sharpen
   who she serves, why they buy, what makes her the only choice, and what is
   known versus assumed. Plans real client interviews and turns their notes into
   updates for positioning.md and the avatars. Use when the user says
   "positioning board", "who is my ideal client", "sharpen my positioning",
   "why do clients buy from me", "what makes me different", "prep a client
-  interview", "debrief this call", "is my avatar right", or wants to update
+  interview", "debrief this call", "is my avatar right", "does anyone still want this with AI", or wants to update
   positioning.md, Sarah or Esti from real evidence.
 ---
 
