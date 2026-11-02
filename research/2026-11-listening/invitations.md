@@ -26,6 +26,36 @@ It takes about 20 minutes, on a call or by voice notes, whatever's easier. As a 
 If that's you, comment or message me and I'll send the questions.
 ```
 
+## 1b. LinkedIn post
+
+Keyword: people comment "listening". Reply to each with section 3, by hand.
+Human check: 78.1 PASS. 1,117 characters.
+
+```
+I'm looking for 10 women founders who'll tell me how their business really is right now.
+
+Not a survey. Not a sales call. A conversation.
+
+Here's why. I've built brands for founders, and I'm coming back to it in a world that has changed. AI can make a logo in seconds and write a week of posts before the school run.
+
+And yet the founders I know aren't less overwhelmed. Many have more ideas than ever, more drafts than ever, and still that feeling that it hasn't quite taken off. Or that what's out there doesn't sound like them.
+
+Before I build what comes next, I want to hear how it really is.
+
+So if you:
+- run your own business
+- have more ideas than time (ADHD or not)
+- have started using AI to keep up, whether that's ChatGPT, Claude, Canva or anything else
+
+I'd love 20 minutes of your story. A call or voice notes, whatever's easier. I'll be listening, not pitching.
+
+As a thank-you, I'll send you The Message Mirror, a short exercise I made for seeing your offer the way your clients see it.
+
+Comment "listening" or send me a message, and I'll send you the questions.
+
+#WomenFounders #Entrepreneurship #AI
+```
+
 ## 2. Someone you know, or asking for introductions
 
 ```
