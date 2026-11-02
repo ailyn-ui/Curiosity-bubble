@@ -122,7 +122,8 @@ The "yes" here is the commitment signal (Fitzpatrick): note who says it.
 
 | # | Who (no names in the repo) | Found via | Scattered? | Uses AI? | Spent money/time fixing it? | "Tell me when" yes? |
 |---|---|---|---|---|---|---|
-| 1 | | | | | | |
+| 1 | Health coach, ~10 yrs, past client ([notes](01-health-coach.md)) | warm | some (tool overwhelm) | yes, daily | ~$150 + ~1 year + Ailyn's review | not asked yet |
+| 2 | | | | | | |
 
 The position holds if 6 of 10 describe the struggle unprompted **and** have
 already spent money or real time trying to fix it. Debrief each one with
