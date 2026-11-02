@@ -1,5 +1,5 @@
 ---
-name: tub-students-geo-seo-ranking-auditor-v1
+name: seo-audit
 description: "Full-site GEO/SEO audit that crawls any website and evaluates both traditional Google SEO factors and AI-search (GEO) visibility across ChatGPT, Perplexity, and Google AI Overviews. Trigger on: 'audit my SEO', 'GEO audit', 'SEO audit', 'GEO/SEO audit', 'rank my site', 'SEO ranking audit', 'GEO ranking audit', 'audit this URL', 'site SEO check', 'audit my website for AI search', 'GEO visibility audit', 'how does my site rank', or paste a URL with 'audit it'. Delivers a 6-section report: executive summary, findings table, priority roadmap (Fix Now / This Quarter / Strategic Bets), content expansion plan (15 page ideas), GEO upgrade plan, and final verdict. Requires browsing enabled. Built on Rand Fishkin's strategic SEO frameworks."
 metadata:
   audience: "public"

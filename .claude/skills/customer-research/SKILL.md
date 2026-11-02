@@ -1,5 +1,5 @@
 ---
-name: tub-students-customer-research-analyst-v1
+name: customer-research
 description: "McKinsey-grade Voice of Customer research. Delivers an 8-section report built from live Reddit, Google Reviews, Yelp, YouTube comments, and forums — real quotes, real frustrations, real delight signals, premium price triggers, and ranked unmet needs. Starts with a 5-question intake before researching. Trigger on: \"market research,\" \"VOC report,\" \"voice of customer,\" \"what are my customers saying,\" \"customer intelligence,\" \"what do customers complain about,\" \"what do customers love,\" \"run a customer research study,\" \"find out what my customers want,\" \"what are people saying about [category],\" \"run the market research analyst,\" \"run the customer research analyst,\" \"customer insights report,\" or any request to understand real customer language, complaints, desires, or buying triggers. MANUAL INVOCATION ONLY."
 ---
 
