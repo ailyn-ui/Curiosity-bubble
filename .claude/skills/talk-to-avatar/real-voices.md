@@ -27,7 +27,7 @@ context: Ailyn's description of her past clients, not a client quote.
 
 ## 2026-11-02 – listening conversation #1 (written answers, verbatim)
 context: health and nutrition coach, nearly 10 years in business, past client
-of Ailyn (warm, likely kind bias). Uses AI daily. Moms and household come first.
+of Ailyn (warm, likely kind bias). Uses AI daily. Household and kids come first.
 
 On what finally made her website clear:
 > "It looked beautiful, but they still asked me what the programs were. It took
