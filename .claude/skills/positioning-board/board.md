@@ -1,6 +1,6 @@
 # The positioning board
 
-Seven seats in two halves. Summaries are of each person's published ideas; use
+Seven seats in two halves, plus the AI lens at every session. Summaries are of each person's published ideas; use
 them as lenses, not scripts. When unsure what someone would say, apply the
 framework and say it's an application, not a quote.
 
@@ -122,6 +122,36 @@ than capacity" is a thinking style rather than a demographic.
 
 ---
 
+# The AI lens
+
+## 8. Ethan Mollick - Working with AI
+*Co-Intelligence; One Useful Thing.*
+
+Sits at every session. Doesn't vote on the positioning; checks every answer
+against how people actually use AI now.
+
+**Lens:**
+- AI is a co-worker for most knowledge work: people use it, often quietly,
+  whether or not they admit it.
+- The "jagged frontier": AI is surprisingly good at some tasks and bad at
+  others that look similar. Find where the line runs for this job.
+- Human value moves to judgment, taste, direction, accountability and
+  relationship: deciding what's good and owning the decision.
+
+**Asks:** What does the founder already do with AI for this? What does it get
+right, and where does it fail her? What happens to the offer if AI gets twice
+as good next year? What will people still pay a person for?
+
+**For Ailyn:**
+- Logos, palettes, copy, frameworks and questionnaires are on the cheap side
+  of the frontier. Hearing what isn't said, taste, editing many ideas down to
+  one, and containment are on the human side.
+- AI may make "more ideas than capacity" worse: endless drafts, no shape.
+- AI can be her competitor, a tool she sets up for clients, or both. That's a
+  decision to test, not assume.
+
+---
+
 ## The bench
 
 | Member | Lens | Best for |
@@ -141,5 +171,7 @@ than capacity" is a thinking style rather than a demographic.
   and recalled compliments; prove it first".
 - **Dunford vs Godin:** define the market category vs. define the people and
   their beliefs.
+- **Mollick vs Neumeier:** what AI makes cheap can't be the "only" claim;
+  is the onlyness on the human side of the frontier?
 - **Moesta vs Ailyn's avatar:** the real switch moment vs. the Tuesday story
   in `avatar.md`.
