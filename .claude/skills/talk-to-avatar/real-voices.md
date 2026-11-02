@@ -12,5 +12,15 @@ Format:
 context: {stage of business, kids, anything relevant}
 ```
 
-_No real voices added yet. Until there are some, everything Sarah says is
-built on Ailyn's description plus synthetic data. Treat it as a rehearsal._
+## 2026-10-31 – past client feedback, as Ailyn recalls it (not verbatim)
+> "an artist" · "incredibly insightful" · "always great to work with" ·
+> "professional, organised, helpful, available" · "a great listener, nothing
+> escapes her" · "witchy" (connects things deep inside; lives change)
+context: five past clients (health coach ~10 years in, swimwear brand,
+Chabad Zurich, a podcast turned expat advisory, one ADHD founder). Replace with
+exact words when Ailyn collects written testimonials.
+
+## 2026-10-31 – Ailyn on what her clients have in common
+> "more scattered than ADHD proper, but it's similar overwhelm with more ideas
+> than capacity and a deep frustration of not taking off"
+context: Ailyn's description of her past clients, not a client quote.
