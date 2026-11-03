@@ -55,8 +55,8 @@ Seven hexagons: the queen in the centre, six cells around her.
 
 ```
        Marketing & sales   Development
-      Clients        BRAND        Operations
-            Me             Finances
+      Clients        BRAND        Me  ⇄ Home
+            Finances       Operations
 ```
 
 ## The queen: Brand
