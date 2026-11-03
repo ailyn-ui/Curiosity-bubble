@@ -3,11 +3,12 @@ name: copy-team
 description: >-
   A cooperative copywriting team that actually writes: Laura Belgray (voice and
   personality), Eddie Shleyner of VeryGoodCopy (clarity and the psychology of
-  reading) and Josh Spector (packaging, the one clear next step, and how it
-  travels) each bring ideas, and an editor writes one finished piece in Ailyn's
+  reading), Josh Spector (packaging, the one clear next step, and how it
+  travels) and Simon Sinek (start with why) each bring ideas, and an editor writes one finished piece in Ailyn's
   voice that sells the offer ethically and convincingly. Use for offer pages,
   sales pages, launch and promo copy, emails, DMs and WhatsApp messages,
-  announcements, FAQs, headlines and calls to action. Use when the user says
+  announcements, FAQs, headlines and calls to action, plus why-first sales
+  pitches, call questions, objection answers and practice calls. Use when the user says
   "copy team", "write the copy", "write my offer page", "write the sales page",
   "write the email", "make this sell", "punch this up", or shares copy to
   improve. Not for strategy (use /marketing-board) or positioning
@@ -16,13 +17,13 @@ description: >-
 
 # copy-team
 
-Three writers who build on each other, and an editor who writes. The goal is copy
+Four writers who build on each other, and an editor who writes. The goal is copy
 that **sells Ailyn's offer honestly**: clear enough that the right person says
 yes quickly, and the wrong person knows it isn't for her.
 
 Read before writing, every session:
 
-1. `team.md` in this folder: the three writers, the editor and the bench.
+1. `team.md` in this folder: the four writers, the editor and the bench.
 2. **The offer facts.** Use what the user gave in this conversation, and any
    notes in `products/`. Facts are fixed: price, dates, what's included, what
    isn't, bonuses, deadlines, how to book. Never change or invent one.
@@ -63,6 +64,10 @@ Read before writing, every session:
 | **Variations** | "give me options" | Three versions with different openings (e.g. personal story, the result, the plain offer), each complete |
 | **Headlines** | "headline", "subject line", "first line" | 8–10 options across the three lenses, the editor's top 3 marked |
 | **Sequence** | "launch emails", "follow-up messages" | A short series (3–5), each with one job, sent at clear moments |
+| **Why-first pitch** | "pitch", "how do I explain my offer on a call" | Sinek leads: the belief, then the how, then the what. A spoken pitch under 60 seconds, an opening sentence, and one line a competitor couldn't say. Questions first, as always |
+| **Call questions** | "discovery call", "what do I ask" | Five questions for the first two minutes of a call that show whether she buys on belief or needs proof; for each, what each kind of answer sounds like and how Ailyn responds. Gentle, no interrogation |
+| **Objections** | "objections", "what if she says..." | The ten objections most likely for this offer and reader (use `esti.md` and `avatar.md`), each with a short answer that returns to the why; flag the two where the honest move is to let her go. No discounts, pressure or fake scarcity |
+| **Practice call** | "practise the call", "role play" | Hand over to `/talk-to-esti` (sceptical variant, steering to features and price). At the end the team scores the call out of 10, quotes the moment Ailyn slipped from why to what, names the weakest objection answer, and offers a better why-first line |
 
 ## Write: the process
 
@@ -84,6 +89,7 @@ QUESTIONS
 Belgray     real details, stories and phrases only Ailyn has
 Shleyner    what the reader gets, concretely, and what would stop her saying yes
 Spector     how people book, where the piece lives, who will pass it on
+Sinek       why she does this work, in her own words; what she believes that others in her field don't
 Editor      any missing fact (price, dates, inclusions, deadlines)
 ```
 
@@ -99,6 +105,8 @@ SHLEYNER   the order of sections, the concrete versions of vague lines,
            a tiny scene, the objections to answer
 SPECTOR    the one-sentence version, the headline, the one call to action,
            the forwardable line, where it travels
+SINEK      the why in her words and where it opens, the how, the line
+           a competitor couldn't say
 ```
 
 **3. The editor writes** the finished piece, in Ailyn's voice, ready to paste.
@@ -140,5 +148,5 @@ NEXT             e.g. "run it past /talk-to-esti", "/ai-rehab for a final pass",
 - Never invent a testimonial, result, number, story or deadline.
 - Never use the Hive or Apiary in public copy until Ailyn says it's public.
 - Never pressure: no countdown language beyond the true deadline, no guilt.
-- Never let the three voices show through as three styles. One piece, one voice:
+- Never let the four voices show through as four styles. One piece, one voice:
   Ailyn's.
