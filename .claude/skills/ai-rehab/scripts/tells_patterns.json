@@ -1,0 +1,270 @@
+{
+  "version": "1.0",
+  "notes": "AI Rehab tell catalog for count_tells.py. Each category lists candidates; the assistant judges each hit in context and the writer's voice outranks any rule. Sources: The Uncommon Business's Anti-AI Writing Rules and team drafts, the Graphite AI-tells study (2026-09-16), and Wikipedia's 'Signs of AI writing' (ideas only). All wording here is The Uncommon Business's own.",
+  "categories": [
+    {
+      "id": "dash",
+      "label": "Em dashes and dash stand-ins",
+      "kind": "regex",
+      "items": [
+        "—",
+        "(?<=\\s)--(?=\\s)",
+        "(?<=\\s)–(?=\\s)"
+      ]
+    },
+    {
+      "id": "filler_word",
+      "label": "Filler words",
+      "kind": "words",
+      "items": [
+        "genuinely",
+        "honestly",
+        "actually",
+        "really",
+        "truly",
+        "simply",
+        "seamlessly",
+        "quietly",
+        "deeply",
+        "literally",
+        "basically"
+      ]
+    },
+    {
+      "id": "buzzword",
+      "label": "Buzzwords",
+      "kind": "words",
+      "items": [
+        "leverage",
+        "leveraging",
+        "utilize",
+        "utilizing",
+        "unlock",
+        "unlocks",
+        "elevate",
+        "elevates",
+        "empower",
+        "empowers",
+        "streamline",
+        "streamlines",
+        "synergy",
+        "game changer",
+        "game-changer",
+        "game-changing",
+        "deep dive",
+        "unpack",
+        "pivot",
+        "aligned",
+        "lean into",
+        "double down",
+        "next-level",
+        "cutting-edge",
+        "best-in-class",
+        "world-class",
+        "innovative",
+        "revolutionize",
+        "revolutionary",
+        "transformative",
+        "holistic",
+        "robust",
+        "seamless",
+        "journey",
+        "thought leader",
+        "intentional community building",
+        "empowering",
+        "elevating"
+      ]
+    },
+    {
+      "id": "ai_vocabulary",
+      "label": "AI vocabulary",
+      "kind": "words",
+      "items": [
+        "delve",
+        "delves",
+        "delving",
+        "tapestry",
+        "multifaceted",
+        "nuanced",
+        "resonate",
+        "resonates",
+        "embark",
+        "foster",
+        "fostering",
+        "illuminate",
+        "paramount",
+        "pivotal",
+        "meticulous",
+        "meticulously",
+        "intricate",
+        "comprehensive",
+        "furthermore",
+        "moreover",
+        "additionally",
+        "in essence",
+        "in conclusion",
+        "in summary",
+        "testament",
+        "underscore",
+        "underscores",
+        "showcase",
+        "showcases",
+        "showcasing",
+        "boasts",
+        "nestled",
+        "vibrant",
+        "realm",
+        "ever-evolving",
+        "treasure trove",
+        "crucial",
+        "bolstered",
+        "interplay",
+        "garnered",
+        "serves as",
+        "stands as",
+        "plays a vital role",
+        "plays a pivotal role",
+        "plays a crucial role",
+        "plays a key role"
+      ]
+    },
+    {
+      "id": "throat_clearing",
+      "label": "Throat-clearing and announced importance",
+      "kind": "words",
+      "items": [
+        "here's the thing",
+        "let me explain",
+        "the truth is",
+        "at the end of the day",
+        "let that sink in",
+        "more than ever",
+        "in today's world",
+        "in today's fast-paced world",
+        "in today's digital world",
+        "in today's busy world",
+        "it's safe to say",
+        "in the first place",
+        "something shifted",
+        "and that brings me to",
+        "here's what i want you to understand",
+        "i want to talk about something important",
+        "here's what nobody tells you",
+        "nobody talks about",
+        "it's worth noting",
+        "it is worth noting",
+        "it's important to note",
+        "this changes everything",
+        "the reality is",
+        "and then it hit me",
+        "matters because",
+        "matters more than",
+        "without requiring"
+      ]
+    },
+    {
+      "id": "contrast_pivot",
+      "label": "\"It's not X, it's Y\" pivots",
+      "kind": "regex",
+      "flags": "i",
+      "items": [
+        "\\b(?:it|this|that)(?:'s| is| was)\\s+not\\b[^.!?\\n—–]{1,80}(?:[.,;:]|\\s[—–])\\s*(?:it|this|that)(?:'s| is| was)\\b",
+        "\\bisn't about\\b[^.!?\\n—–]{1,80}(?:[.,;:]|\\s[—–])\\s*it's about\\b",
+        "\\bnot (?:just|only|merely|simply)\\b[^.!?\\n]{1,80}\\bbut\\b",
+        "\\byou don't need\\b[^.!?\\n]{1,60}[.,;]\\s*you need\\b",
+        "\\brather than merely\\b",
+        "\\bnot simply\\b",
+        "\\bis not just\\b",
+        "\\bless \\w+, more \\w+\\b"
+      ]
+    },
+    {
+      "id": "ing_tail",
+      "label": "Trailing \"-ing\" verdicts",
+      "kind": "regex",
+      "flags": "i",
+      "items": [
+        ",\\s+(?:highlighting|underscoring|emphasizing|reflecting|showcasing|ensuring|fostering|cementing|solidifying)\\b"
+      ]
+    },
+    {
+      "id": "colon_label",
+      "label": "Colon labels",
+      "kind": "regex",
+      "flags": "im",
+      "items": [
+        "(?:^|(?<=[.!?]\\s))(?:the\\s+)?(?:key (?:insight|takeaway|point)|bottom line|truth|result|reality|takeaway|kicker|catch|secret|lesson|upshot|short answer|my take)\\s*:"
+      ]
+    },
+    {
+      "id": "engagement_bait",
+      "label": "Engagement bait",
+      "kind": "regex",
+      "flags": "i",
+      "items": [
+        "\\bsound familiar\\?",
+        "\\bwhat if (?:you|i told you)\\b[^?\\n]{0,80}\\?",
+        "\\btag someone\\b",
+        "\\blike if you agree\\b",
+        "\\bdrop a comment\\b"
+      ]
+    },
+    {
+      "id": "chatbot_leftover",
+      "label": "Chatbot leftovers",
+      "kind": "regex",
+      "flags": "i",
+      "items": [
+        "utm_source=chatgpt\\.com",
+        "oaicite",
+        "contentReference\\[",
+        "\\[cite:\\s*\\d+\\]",
+        "\\bturn\\d+search\\d+\\b",
+        "\\[insert [^\\]\\n]+\\]",
+        "\\bas an ai(?: language model)?\\b",
+        "\\bi hope this helps\\b",
+        "\\bcertainly! here\\b",
+        "\\bgreat question\\b",
+        "\\bfeel free to (?:reach out|let me know)\\b",
+        "\\blet me know if you (?:have|need)\\b",
+        "\\bas of my (?:last )?knowledge (?:cutoff|update)\\b"
+      ]
+    },
+    {
+      "id": "hidden_character",
+      "label": "Hidden characters (counted, never proof)",
+      "kind": "regex",
+      "items": [
+        "[​‌‍⁠﻿ ]"
+      ]
+    },
+    {
+      "id": "semicolon",
+      "label": "Semicolons (house style)",
+      "kind": "regex",
+      "house_style": true,
+      "items": [
+        ";(?![a-z0-9#]{0,8};)"
+      ]
+    },
+    {
+      "id": "trailing_ellipsis",
+      "label": "Trailing ellipses (house style)",
+      "kind": "regex",
+      "flags": "m",
+      "house_style": true,
+      "items": [
+        "(?:\\.\\.\\.|…)[ \\t]*$"
+      ]
+    },
+    {
+      "id": "emoji_bullet",
+      "label": "Emoji used as bullets",
+      "kind": "regex",
+      "flags": "m",
+      "items": [
+        "^[ \\t]*[🌀-🧿☀-➿]️?[ \\t]"
+      ]
+    }
+  ]
+}
