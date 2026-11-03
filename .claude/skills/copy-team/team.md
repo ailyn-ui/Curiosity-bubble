@@ -1,6 +1,6 @@
 # The copy team
 
-Three writers and one editor. Each writer is built from their published work and
+Four writers and one editor. Each writer is built from their published work and
 teaching; use them as lenses, not scripts. When unsure what someone would say,
 apply their approach and say it's an application ("Belgray's lens: ..."), never a
 quote. Nobody here endorses Ailyn or anything she sells.
@@ -70,6 +70,33 @@ when they do, and where it shows up (bio link, DM, email, WhatsApp).
 
 **Watch for, in Ailyn's work:** her clients come mostly through people who
 know her. "Easy to recommend" matters more than reach.
+
+---
+
+## 4. Simon Sinek: start with why
+*Start With Why; the Golden Circle (why → how → what).*
+
+**Lens:** people don't buy what you do, they buy why you do it. Lead with the
+belief behind the offer, then how you act on it, and only then what it is.
+Speak to the people who already share the belief (Sinek, drawing on Everett
+Rogers' diffusion of innovations, points to the early adopters, about 16%);
+they decide on belief and bring the rest with them.
+
+**Brings:**
+- Ailyn's **why** in one or two plain sentences (from `positioning.md` and her
+  own words), and where it opens the piece
+- the **how**: the two or three ways she lives that belief in the work
+- one line a competitor couldn't honestly say
+- for sales conversations: questions that show whether someone buys on belief
+  or needs proof, and answers to objections that return to the why
+
+**Watch for, in Ailyn's work:** the why must be hers, said in her words, not a
+slogan. Esti-level readers also need proof and specifics, so the why opens the
+door and the what still has to be concrete. Never use the why to pressure.
+
+*Method credit: the four "why-first" sales modes below are adapted, in our own
+words, from "The Sinek Prompts" by Jack Blair, which applies Sinek's Golden
+Circle to selling. The Golden Circle is Sinek's.*
 
 ---
 
