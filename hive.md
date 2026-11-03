@@ -7,7 +7,7 @@ Ailyn's business builder, and her map of how a business works. It is both:
 - **The map:** how Ailyn thinks, diagnoses and plans. Every finding, tool and
   piece of content has a place in one of its cells.
 
-Read alongside `positioning.md`. **Status: draft**, shaped with Ailyn on
+Part of **The Apiary** (`apiary.md`): the Hive is the business side. Read alongside `positioning.md`. **Status: draft**, shaped with Ailyn on
 2026-11-03; test it in the 10 listening conversations before treating it as final.
 
 ## The one line
@@ -44,8 +44,9 @@ also protects Ailyn's own energy.
 | Me | Boundaries and rhythms built into the setup from day one | Looks after her energy | The setup protects her time |
 | Clients | The client journey, from first contact to referral | The relationship itself | Welcome emails, reminders, feedback requests |
 
-The intensive finds the queen. The 40-day build builds the hive around her, cell
-by cell, and ends with the handover. Ailyn confirmed on 2026-11-03 that the
+The intensive (one week) finds the queen and writes her down, without visual
+assets. The 40-day build builds the hive around her, cell by cell, including the
+visual identity, and ends with the handover. Ailyn confirmed on 2026-11-03 that the
 "we build together" column fits what she can deliver in 40 days.
 
 ## The shape
@@ -130,8 +131,8 @@ Everything else exists to serve and carry it.
 
 | Work | Where it lives |
 |---|---|
-| The intensive, CHF 4,000 | The queen: finding her one shape and voice, and the key decisions |
-| The 40-day build, CHF 12,000 | The whole hive, built around her queen |
+| The intensive, CHF 4,000 (one week) | The queen, written down: her one shape, voice, promise, story and the key decisions. **No visual assets**: there isn't time in one week |
+| The 40-day build, CHF 12,000 | The whole hive, built together around her queen, **including the visual identity**, then handed over |
 | The Message Mirror | Brand and Marketing (what clients think they buy vs what you deliver) |
 | The Money Mirror | Finances |
 | The brand brain / AI helpers | Operations: the brain, so no one is waiting on her |
