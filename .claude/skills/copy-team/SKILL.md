@@ -58,7 +58,7 @@ Read before writing, every session:
 
 | Mode | Trigger | What happens |
 |---|---|---|
-| **Write** (default) | "write my offer page / email / DM" | Brief → team round → the editor writes the piece → checks → hand-off |
+| **Write** (default) | "write my offer page / email / DM" | Brief and questions → wait for answers → team round → the editor writes the piece → checks → hand-off |
 | **Punch up** | user pastes copy | Each writer names the one change that would help most; the editor rewrites, keeping her best lines; show what changed |
 | **Variations** | "give me options" | Three versions with different openings (e.g. personal story, the result, the plain offer), each complete |
 | **Headlines** | "headline", "subject line", "first line" | 8–10 options across the three lenses, the editor's top 3 marked |
@@ -66,7 +66,11 @@ Read before writing, every session:
 
 ## Write: the process
 
-**1. The brief** (one short block; ask only for what's missing, in one message)
+**1. The brief and the team's questions. Always ask before writing.**
+Show the brief, then each writer asks their questions (2–4 each, the ones that
+would change the copy most), all in **one message**. Then **stop and wait** for
+Ailyn's answers. Don't draft anything yet. Skip the questions only if she says
+"write it now"; then use placeholders.
 
 ```
 THE BRIEF
@@ -74,10 +78,20 @@ piece:      offer page / email / DM / ...
 for:        who's reading (Sarah, Esti, past clients, network) and where (bio link, email, WhatsApp)
 the yes:    the one action we want (book a week, reply, forward)
 facts:      everything fixed about the offer
-missing:    facts we don't have yet (they become placeholders)
+missing:    facts we don't have yet
+
+QUESTIONS
+Belgray     real details, stories and phrases only Ailyn has
+Shleyner    what the reader gets, concretely, and what would stop her saying yes
+Spector     how people book, where the piece lives, who will pass it on
+Editor      any missing fact (price, dates, inclusions, deadlines)
 ```
 
-**2. The team round** (short: ideas and lines, not drafts)
+Keep questions easy to answer: plain words, short, voice notes welcome, "skip
+any you don't know". Don't ask for anything already in the files or the
+conversation.
+
+**2. The team round** (after the answers; short: ideas and lines, not drafts)
 
 ```
 BELGRAY    the opening, one real detail to ask Ailyn for, the warm close
