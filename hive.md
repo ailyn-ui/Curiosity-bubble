@@ -41,7 +41,7 @@ also protects Ailyn's own energy.
 | Operations | How things are done and what only she knows, written down in one place; the tools set up | The decisions only she can make | Answers from what's written, so no one waits on her |
 | Finances | Prices that make sense and a simple money structure (the Money Mirror) | A short money review, and the decisions | Bookkeeping and taxes (her bookkeeper or accountant) |
 | Development | A place for her ideas, and a simple way to choose between them | Chooses what grows next | Researches and drafts the new idea |
-| You | Boundaries and rhythms built into the setup from day one | Looks after her energy | The setup protects her time |
+| Me | Boundaries and rhythms built into the setup from day one | Looks after her energy | The setup protects her time |
 | Clients | The client journey, from first contact to referral | The relationship itself | Welcome emails, reminders, feedback requests |
 
 The intensive finds the queen. The 40-day build builds the hive around her, cell
@@ -55,7 +55,7 @@ Seven hexagons: the queen in the centre, six cells around her.
 ```
        Marketing & sales   Development
       Clients        BRAND        Operations
-            You            Finances
+            Me             Finances
 ```
 
 ## The queen: Brand
@@ -108,8 +108,8 @@ Everything else exists to serve and carry it.
 - Taxes and reserves
 - Money reviews
 
-### 5. You: temperature control
-*Bees fan their wings to keep the hive at the right heat.* The founder's energy, capacity and limits.
+### 5. Me: temperature control
+*Bees fan their wings to keep the hive at the right heat.* The founder's own energy, capacity and limits, named in her voice ("me", not "you").
 
 - Energy (the body budget: what the business spends from you)
 - Capacity (how much you can carry this season)
@@ -135,8 +135,8 @@ Everything else exists to serve and carry it.
 | The Message Mirror | Brand and Marketing (what clients think they buy vs what you deliver) |
 | The Money Mirror | Finances |
 | The brand brain / AI helpers | Operations: the brain, so no one is waiting on her |
-| "More ideas than capacity" | Development (the idea bank) and You (capacity) |
-| The adrenaline / body budget essay | You (energy) |
+| "More ideas than capacity" | Development (the idea bank) and Me (capacity) |
+| The adrenaline / body budget essay | Me (energy) |
 | Sarah, Esti, the listening conversations | Clients |
 
 ## How to use the map
