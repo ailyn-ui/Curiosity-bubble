@@ -1,7 +1,7 @@
 # THE APIARY (draft v1, 2026-11-03)
 
 The whole of a founder's world, the way Ailyn builds it: her business and her
-home, side by side, connected but never merged. An apiary is the place where a
+home, side by side and connected. An apiary is the place where a
 beekeeper keeps her hives. **The founder is the beekeeper.** She tends both hives
 and decides what each one gets; she stops doing the bees' work in either.
 
