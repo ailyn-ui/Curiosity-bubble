@@ -16,19 +16,27 @@ Every token is referred to by **semantic role**, not by its hex value. Type refe
 
 | Role | Purpose | Default (light) | Default (dark) |
 |---|---|---|---|
-| `paper` | Page background, default node fill | `#f5f5f5` (white-smoke) | `#2d3142` (jet-black) |
-| `paper-2` | Diagram container bg, secondary fill | `#ececec` | `#393e53` |
-| `ink` | Primary text, primary stroke | `#2d3142` (jet-black) | `#f5f5f5` (white-smoke) |
-| `ink-strong` | High-contrast text on warm accent fills | `#111111` | `#111111` |
-| `muted` | Secondary text, default arrow stroke | `#4f5d75` (blue-slate) | `#bfc0c0` (silver) |
-| `soft` | Sublabels, boundary labels | `#5a6580` | `#949eb2` |
-| `rule` | Hairline borders | `rgba(45,49,66,0.12)` | `rgba(245,245,245,0.12)` |
-| `rule-solid` | Stronger borders, baselines | `#bfc0c0` (silver) | `rgba(191,192,192,0.25)` |
-| `accent` | Focal / 1–2 max per diagram | `#bf4520` (burnt-tangerine) | `#f08a59` |
-| `accent-tint` | Fill for accent-bordered boxes | `rgba(191,69,32,0.08)` | `rgba(240,138,89,0.10)` |
-| `link` | HTTP/API calls, external arrows | `#2e5aa8` | `#739fdf` |
+| `paper` | Page background, default node fill | `#ffffff` (brand white) | `#000000` (brand black) |
+| `paper-2` | Diagram container bg, secondary fill | `#f5f5f5` | `#141414` |
+| `ink` | Primary text, primary stroke | `#000000` (brand black) | `#ffffff` (brand white) |
+| `ink-strong` | High-contrast text on warm accent fills | `#000000` | `#000000` |
+| `muted` | Secondary text, default arrow stroke | `#595959` | `#b3b3b3` |
+| `soft` | Sublabels, boundary labels | `#767676` | `#949494` |
+| `rule` | Hairline borders | `rgba(0,0,0,0.12)` | `rgba(255,255,255,0.14)` |
+| `rule-solid` | Stronger borders, baselines | `#d9d9d9` | `rgba(255,255,255,0.25)` |
+| `accent` | Focal / 1–2 max per diagram | `#e80055` (brand pink, AA) | `#ff4f8b` |
+| `accent-tint` | Fill for accent-bordered boxes | `rgba(232,0,85,0.07)` | `rgba(255,79,139,0.12)` |
+| `link` | HTTP/API calls, external arrows | `#000000` | `#ffffff` |
 
 > **Brand palette source:** this skin maps to a five-color brand palette: `jet-black #2d3142`, `silver #bfc0c0`, `white-smoke #f5f5f5`, `atomic-tangerine`, `blue-slate #4f5d75`. The light `accent` is not the raw brand tangerine. Raw atomic-tangerine reads 2.86:1 on `paper`, too faint for an arrow or a label, so the skin uses `#bf4520`, the same hue darkened until it clears 4.5:1 as text. The `soft`, `rule`, and `link` tokens are derived (a darker slate, ink at opacity, and a saturated variant in the blue-slate hue family) to cover roles the brand palette doesn't name directly. Every derived value is held to the contrast contract below.
+
+### Custom tokens (Ailyn Eida brand, 2026-11-06)
+
+Brand colours given by Ailyn: pink `#ef0058`, white `#ffffff`, black `#000000`. Pure-white paper is intentional.
+
+- **Accent:** raw `#ef0058` reads 4.36:1 on white, just under the 4.5:1 text minimum, so the light skin uses `#e80055` (4.60:1), the same hue a touch darker. Dark skin uses `#ff4f8b` (6.74:1 on black).
+- **Derived:** `muted` `#595959` (7.00:1), `soft` `#767676` (4.54:1) on white; dark `soft` `#949494` (6.92:1) on black. `link` is ink, since the brand has no blue.
+- **Fonts:** unchanged (Instrument Serif / Geist / Geist Mono). The Message Mirror uses Playfair; swap `title` to it if wanted.
 
 ### Contrast contract
 
@@ -44,7 +52,7 @@ Every token must clear the threshold for each role it plays, against the backgro
 - **A token used in several roles must pass each one.** `accent` is a stroke in one place and a label in another, so it is held to 4.5:1, not the 3:1 its strokes alone would need. Don't assume a token is non-text because it usually is.
 - **Translucent colors are composited first.** An `rgba()` fill or stroke is blended over `paper` before its ratio is measured. A value that clears the bar at full strength can fail at 0.5 opacity.
 - **Surfaces other than `paper` cost contrast.** Inside an `accent-tint` box or on `paper-2` every ratio drops. Measure text placed there against that surface, not against `paper`.
-- **Current defaults:** light `accent` 4.71:1, `soft` 5.34:1, `link` 6.13:1, `muted` 6.11:1 on `#f5f5f5`; dark `accent` 5.21:1, `soft` 4.78:1, `link` 4.76:1 on `#2d3142`.
+- **Shipped defaults (replaced above):** light `accent` 4.71:1, `soft` 5.34:1, `link` 6.13:1, `muted` 6.11:1 on `#f5f5f5`; dark `accent` 5.21:1, `soft` 4.78:1, `link` 4.76:1 on `#2d3142`.
 
 ### Inversion rule (light → dark)
 

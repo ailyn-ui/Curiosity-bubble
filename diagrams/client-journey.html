@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From scattered to held · Client journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --color-paper:   #ffffff;
+      --color-ink:     #000000;
+      --color-muted:   #595959;
+      --color-soft:    #767676;
+      --color-accent:  #e80055;
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace;
+    }
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-paper);
+      color: var(--color-ink);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 2rem;
+    }
+    .frame { max-width: 1360px; width: 100%; }
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      margin-bottom: 0.5rem;
+    }
+    h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.5rem, 2.4vw + 0.75rem, 2rem);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin-bottom: 1.5rem;
+    }
+    .scroll { overflow-x: auto; }
+    svg { width: 100%; min-width: 1312px; display: block; }
+    .note {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--color-muted);
+      margin-top: 1rem;
+      max-width: 60ch;
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <p class="eyebrow">Client journey · Ailyn Eida</p>
+    <h1>From scattered to held: the client journey</h1>
+
+    <div class="scroll">
+    <svg viewBox="0 0 1312 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="client-journey-title client-journey-desc">
+      <title id="client-journey-title">From scattered to held: the client journey</title>
+      <desc id="client-journey-desc">Journey of a woman founder with more ideas than capacity, from hearing of Ailyn through the free Message Mirror and a no-pitch reply to the intensive and the 40-day build, with sentiment dipping lowest at the decision to buy.</desc>
+
+      <rect width="100%" height="100%" fill="#ffffff"/>
+
+      <!-- Stage headers -->
+      <g font-family="'Geist Mono', monospace" font-size="8" fill="#595959" text-anchor="middle" letter-spacing="0.14em">
+        <text x="180"  y="40">STAGE 1</text>
+        <text x="380"  y="40">STAGE 2</text>
+        <text x="580"  y="40">STAGE 3</text>
+        <text x="780"  y="40">STAGE 4</text>
+        <text x="980"  y="40">STAGE 5</text>
+        <text x="1180" y="40">STAGE 6</text>
+      </g>
+      <g font-family="'Geist', sans-serif" font-size="12" font-weight="600" fill="#000000" text-anchor="middle">
+        <text x="180"  y="60">Hears of Ailyn</text>
+        <text x="380"  y="60">Message Mirror</text>
+        <text x="580"  y="60">No-pitch reply</text>
+        <text x="780"  y="60">The decision</text>
+        <text x="980"  y="60">The intensive</text>
+        <text x="1180" y="60">The 40-day build</text>
+      </g>
+
+      <!-- Sentiment band -->
+      <line x1="88" y1="100" x2="1272" y2="100" stroke="rgba(0,0,0,0.10)" stroke-width="0.8"/>
+      <line x1="88" y1="180" x2="1272" y2="180" stroke="rgba(0,0,0,0.10)" stroke-width="0.8"/>
+      <line x1="88" y1="260" x2="1272" y2="260" stroke="rgba(0,0,0,0.10)" stroke-width="0.8"/>
+      <g font-family="'Geist Mono', monospace" font-size="8" fill="#595959" text-anchor="end" letter-spacing="0.10em">
+        <text x="80" y="104">HIGH</text>
+        <text x="80" y="184">NEUTRAL</text>
+        <text x="80" y="264">LOW</text>
+      </g>
+
+      <!-- Sentiment curve (data curve, connector rule 1 exempt) -->
+      <polyline points="180,180 380,220 580,140" fill="none" stroke="#595959" stroke-width="1.5" stroke-linejoin="round"/>
+      <polyline points="580,140 780,260" fill="none" stroke="#e80055" stroke-width="1.5" stroke-linejoin="round"/>
+      <polyline points="780,260 980,100 1180,100" fill="none" stroke="#595959" stroke-width="1.5" stroke-linejoin="round"/>
+      <circle cx="180"  cy="180" r="5" fill="#595959"/>
+      <circle cx="380"  cy="220" r="5" fill="#595959"/>
+      <circle cx="580"  cy="140" r="5" fill="#595959"/>
+      <circle cx="780"  cy="260" r="5" fill="#e80055"/>
+      <circle cx="980"  cy="100" r="5" fill="#595959"/>
+      <circle cx="1180" cy="100" r="5" fill="#595959"/>
+
+      <!-- Row separators -->
+      <line x1="88" y1="280" x2="1272" y2="280" stroke="rgba(0,0,0,0.10)" stroke-width="0.8"/>
+      <line x1="88" y1="392" x2="1272" y2="392" stroke="rgba(0,0,0,0.10)" stroke-width="0.8"/>
+      <line x1="88" y1="440" x2="1272" y2="440" stroke="rgba(0,0,0,0.10)" stroke-width="0.8"/>
+
+      <!-- Row labels -->
+      <g font-family="'Geist Mono', monospace" font-size="8" fill="#595959" text-anchor="end" letter-spacing="0.14em">
+        <text x="80" y="304">ACTIONS</text>
+        <text x="80" y="420">TOUCHPOINTS</text>
+        <text x="80" y="468">PRICE</text>
+      </g>
+
+      <!-- Actions -->
+      <g font-family="'Geist', sans-serif" font-size="12" fill="#000000" text-anchor="middle">
+        <text x="180"  y="304">From a past client</text>
+        <text x="180"  y="320">or a post she shares</text>
+        <text x="380"  y="304">Sees the gap between</text>
+        <text x="380"  y="320">what she says and sells</text>
+        <text x="580"  y="304">Sends what stood out,</text>
+        <text x="580"  y="320">feels truly heard</text>
+        <text x="780"  y="304">Hears the price and</text>
+        <text x="780"  y="320">the non-negotiables</text>
+        <text x="980"  y="304">A week of listening:</text>
+        <text x="980"  y="320">her one real shape</text>
+        <text x="1180" y="304">Brand, structure and</text>
+        <text x="1180" y="320">her AI, set up to hold it</text>
+      </g>
+
+      <!-- Pain markers (trough only) -->
+      <rect x="692" y="336" width="176" height="16" rx="2" fill="rgba(232,0,85,0.07)" stroke="rgba(232,0,85,0.50)" stroke-width="0.8" stroke-dasharray="3,3"/>
+      <text x="780" y="348" fill="#e80055" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.04em">FREE TO CHF 4,000, NO STEP</text>
+      <rect x="692" y="356" width="176" height="16" rx="2" fill="rgba(232,0,85,0.07)" stroke="rgba(232,0,85,0.50)" stroke-width="0.8" stroke-dasharray="3,3"/>
+      <text x="780" y="368" fill="#e80055" font-size="8" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.04em">MUST CHOOSE BETWEEN IDEAS</text>
+
+      <!-- Touchpoints -->
+      <g font-family="'Geist Mono', monospace" font-size="9" fill="#767676" text-anchor="middle">
+        <text x="180"  y="420">referral · Instagram</text>
+        <text x="380"  y="420">14-page printable PDF</text>
+        <text x="580"  y="420">DM or email</text>
+        <text x="780"  y="420">call · proposal</text>
+        <text x="980"  y="420">sessions · brand brain</text>
+        <text x="1180" y="420">AI helpers she keeps</text>
+      </g>
+
+      <!-- Price -->
+      <g font-family="'Geist Mono', monospace" font-size="9" fill="#767676" text-anchor="middle">
+        <text x="180"  y="468">free</text>
+        <text x="380"  y="468">free</text>
+        <text x="580"  y="468">free</text>
+        <text x="780"  y="468">free</text>
+        <text x="980"  y="468">CHF 4,000</text>
+        <text x="1180" y="468">CHF 9,000 after · 12,000</text>
+      </g>
+
+      <!-- Legend -->
+      <line x1="40" y1="512" x2="1272" y2="512" stroke="rgba(0,0,0,0.10)" stroke-width="0.8"/>
+      <text x="40" y="528" fill="#595959" font-size="8" font-family="'Geist Mono', monospace" letter-spacing="0.18em">LEGEND</text>
+      <line x1="40" y1="548" x2="56" y2="548" stroke="#595959" stroke-width="1.5"/>
+      <circle cx="48" cy="548" r="3" fill="#595959"/>
+      <text x="64" y="552" fill="#595959" font-size="8.5" font-family="'Geist', sans-serif">How she feels</text>
+      <line x1="220" y1="548" x2="236" y2="548" stroke="#e80055" stroke-width="1.5"/>
+      <circle cx="228" cy="548" r="3" fill="#e80055"/>
+      <text x="244" y="552" fill="#595959" font-size="8.5" font-family="'Geist', sans-serif">Lowest point</text>
+      <rect x="384" y="544" width="16" height="8" rx="2" fill="rgba(232,0,85,0.07)" stroke="rgba(232,0,85,0.50)" stroke-width="0.8" stroke-dasharray="3,3"/>
+      <text x="408" y="552" fill="#595959" font-size="8.5" font-family="'Geist', sans-serif">Friction</text>
+    </svg>
+    </div>
+
+    <p class="note">Hypothesis: the feelings are inferred from positioning.md, not yet heard from clients. Test them in the 10 listening conversations.</p>
+  </div>
+</body>
+</html>
